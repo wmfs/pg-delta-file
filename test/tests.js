@@ -131,7 +131,7 @@ describe('Run the basic usage example', function () {
           transformFunction: function (row, callback) {
             row[4] = row[4].toUpperCase()
             row[5] = row[5].toUpperCase()
-            callback(row)
+            callback(null, row)
           },
           csvExtracts: {
             people: [
