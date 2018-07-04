@@ -21,7 +21,7 @@ const generateDeltaFile = require('pg-delta-file')
 
 generateDeltaFiles(
   since: '2017-07-16T20:37:26.847Z',
-  outputFilepath: '/some/temp/dir/people-delta.csv',   
+  outputFilepath: '/some/temp/dir/people-delta.csv',
   actionAliases: {
     insert: 'u',
     update: 'u',
@@ -29,7 +29,7 @@ generateDeltaFiles(
   },
   createdColumnName: '_created',
   modifiedColumnName: '_modified',
-
+  transformFunction: (row, callback) => { ... } // optional data transformation
   tables: [
     {
       tableName: 'people',
@@ -40,11 +40,11 @@ generateDeltaFiles(
         '@social_security_id', /// Column data
         '@first_name',
         '@last_name',
-        '@age'    
-      ] 
+        '@age'
+      ]
     }
   ],
-  
+
   // Standard callback
   function (err, info) {
     // ...

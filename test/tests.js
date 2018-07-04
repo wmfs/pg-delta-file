@@ -112,6 +112,48 @@ describe('Run the basic usage example', function () {
 
       expect(output).to.eql(expected)
     })
+
+    it('generate the delta file with transformer', async () => {
+      const outputFile = path.resolve(__dirname, 'output', 'upper-cased.csv')
+      const expectedFile = path.resolve(__dirname, 'fixtures', 'expected', 'upper-cased.csv')
+
+      const info = await generateDelta(
+        {
+          namespace: 'springfield',
+          client: client,
+          since: '2016-06-03 15:02:38.000000 GMT',
+          outputFilepath: outputFile,
+          actionAliases: {
+            insert: 'i',
+            update: 'u',
+            delete: 'd'
+          },
+          transformFunction: function (row, callback) {
+            row[4] = row[4].toUpperCase()
+            row[5] = row[5].toUpperCase()
+            callback(row)
+          },
+          csvExtracts: {
+            people: [
+              73,
+              '$ACTION',
+              '$ROW_NUM',
+              '@social_security_id',
+              '@first_name',
+              '@last_name',
+              '@age'
+            ]
+          }
+        }
+      )
+
+      expect(info.totalCount).to.eql(5)
+
+      const output = readRecords(outputFile)
+      const expected = readRecords(expectedFile)
+
+      expect(output).to.eql(expected)
+    })
   })
 
   describe('cleanup', () => {
