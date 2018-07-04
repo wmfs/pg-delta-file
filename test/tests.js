@@ -8,6 +8,7 @@ const expect = chai.expect
 const path = require('path')
 const generateDelta = require('../lib')
 const process = require('process')
+const fs = require('fs')
 
 describe('Run the basic usage example', function () {
   this.timeout(process.env.TIMEOUT || 5000)
@@ -34,13 +35,16 @@ describe('Run the basic usage example', function () {
 
   describe('pg-delta-file', () => {
 
-    it('generate the delta file', function (done) {
-      generateDelta(
+    it('generate the delta file', async () => {
+      const outputFile = path.resolve(__dirname, 'output', 'single-delta.csv')
+      const expectedFile = path.resolve(__dirname, 'fixtures', 'expected', 'single-delta.csv')
+
+      const info = await generateDelta(
         {
           namespace: 'springfield',
           client: client,
           since: '2016-06-03 15:02:38.000000 GMT',
-          outputFilepath: path.resolve(__dirname, './output', './single-delta.csv'),
+          outputFilepath: outputFile,
           actionAliases: {
             insert: 'i',
             update: 'u',
@@ -57,14 +61,21 @@ describe('Run the basic usage example', function () {
               '@age'
             ]
           }
-        },
-        function (err) {
-          done(err)
         }
       )
+
+      expect(info.totalCount).to.eql(5)
+
+      const output = readRecords(outputFile)
+      const expected = readRecords(expectedFile)
+
+      expect(output).to.eql(expected)
     })
 
     it('should generate delta file for both tables', async () => {
+      const outputFile = path.resolve(__dirname, 'output', 'multiple-delta.csv')
+      const expectedFile = path.resolve(__dirname, 'fixtures', 'expected', 'multiple-delta.csv')
+
       const info = await generateDelta(
         {
           namespace: 'springfield', // to be inferred
@@ -95,6 +106,11 @@ describe('Run the basic usage example', function () {
         }
       )
       expect(info.totalCount).to.eql(6)
+
+      const output = readRecords(outputFile)
+      const expected = readRecords(expectedFile)
+
+      expect(output).to.eql(expected)
     })
   })
 
@@ -109,3 +125,9 @@ describe('Run the basic usage example', function () {
     })
   })
 })
+
+function readRecords(fileName) {
+  const file = fs.readFileSync(fileName, {encoding: 'utf8'})
+  const rows = file.split('\n')
+  return rows
+}
