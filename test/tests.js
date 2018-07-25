@@ -34,7 +34,6 @@ describe('Run the basic usage example', function () {
   })
 
   describe('pg-delta-file', () => {
-
     it('generate the delta file', async () => {
       const outputFile = path.resolve(__dirname, 'output', 'single-delta.csv')
       const expectedFile = path.resolve(__dirname, 'fixtures', 'expected', 'single-delta.csv')
@@ -168,7 +167,7 @@ describe('Run the basic usage example', function () {
   })
 })
 
-function readRecords(fileName) {
+function readRecords (fileName) {
   const file = fs.readFileSync(fileName, {encoding: 'utf8'})
   const rows = file.split('\n')
   return rows
