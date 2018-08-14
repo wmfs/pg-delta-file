@@ -71,6 +71,55 @@ describe('Run the basic usage example', function () {
       expect(output).to.eql(expected)
     })
 
+    it('generate delta file with header', async () => {
+      const outputFile = path.resolve(__dirname, 'output', 'with-header.csv')
+      const expectedFile = path.resolve(__dirname, 'fixtures', 'expected', 'with-header.csv')
+
+      const info = await generateDelta(
+        {
+          namespace: 'springfield',
+          client: client,
+          since: '2016-06-03 15:02:38.000000 GMT',
+          outputFilepath: outputFile,
+          actionAliases: {
+            insert: 'i',
+            update: 'u',
+            delete: 'd'
+          },
+          csvExtracts: {
+            '-HEADER-': [
+              'a string',
+              '$ROW_NUM',
+              'another string',
+              999
+            ],
+            people: [
+              73,
+              '$ACTION',
+              '$ROW_NUM',
+              '@social_security_id',
+              '@first_name',
+              '@last_name',
+              '@age'
+            ],
+            '-FOOTER-': [
+              'all done',
+              '$ROW_NUM',
+              0,
+              0
+            ]
+          }
+        }
+      )
+
+      expect(info.totalCount).to.eql(7)
+
+      const output = readRecords(outputFile)
+      const expected = readRecords(expectedFile)
+
+      expect(output).to.eql(expected)
+    })
+
     it('should generate delta file for both tables', async () => {
       const outputFile = path.resolve(__dirname, 'output', 'multiple-delta.csv')
       const expectedFile = path.resolve(__dirname, 'fixtures', 'expected', 'multiple-delta.csv')
