@@ -1,3 +1,15 @@
+# [1.4.0](https://github.com/wmfs/pg-delta-file/compare/v1.3.0...v1.4.0) (2018-08-14)
+
+
+### ✨ Features
+
+* Added $DATESTAMP, $TIMESTAMP, $DATETIMESTAMP output functions ([e4d2ed7](https://github.com/wmfs/pg-delta-file/commit/e4d2ed7))
+
+
+### 📦 Code Refactoring
+
+* Rework transformer. Instead of dynamically generating function source code, use an array o ([3d26316](https://github.com/wmfs/pg-delta-file/commit/3d26316))
+
 # [1.3.0](https://github.com/wmfs/pg-delta-file/compare/v1.2.0...v1.3.0) (2018-08-14)
 
 
