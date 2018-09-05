@@ -34,16 +34,14 @@ describe('Run the basic usage example', function () {
   })
 
   describe('pg-delta-file', () => {
-    it('generate the delta file', async () => {
-      const outputFile = path.resolve(__dirname, 'output', 'single-delta.csv')
-      const expectedFile = path.resolve(__dirname, 'fixtures', 'expected', 'single-delta.csv')
-
-      const info = await generateDelta(
-        {
+    const tests = [
+      {
+        name: 'single delta',
+        file: 'single-delta.csv',
+        count: 5,
+        delta: {
           namespace: 'springfield',
-          client: client,
           since: '2016-06-03 15:02:38.000000 GMT',
-          outputFilepath: outputFile,
           actionAliases: {
             insert: 'i',
             update: 'u',
@@ -61,26 +59,14 @@ describe('Run the basic usage example', function () {
             ]
           }
         }
-      )
-
-      expect(info.totalCount).to.eql(5)
-
-      const output = readRecords(outputFile)
-      const expected = readRecords(expectedFile)
-
-      expect(output).to.eql(expected)
-    })
-
-    it('generate delta file with header', async () => {
-      const outputFile = path.resolve(__dirname, 'output', 'with-header.csv')
-      const expectedFile = path.resolve(__dirname, 'fixtures', 'expected', 'with-header.csv')
-
-      const info = await generateDelta(
-        {
+      },
+      {
+        name: 'delta file with header',
+        file: 'with-header.csv',
+        count: 7,
+        delta: {
           namespace: 'springfield',
-          client: client,
           since: '2016-06-03 15:02:38.000000 GMT',
-          outputFilepath: outputFile,
           actionAliases: {
             insert: 'i',
             update: 'u',
@@ -110,26 +96,14 @@ describe('Run the basic usage example', function () {
             ]
           }
         }
-      )
-
-      expect(info.totalCount).to.eql(7)
-
-      const output = readRecords(outputFile)
-      const expected = readRecords(expectedFile)
-
-      expect(output).to.eql(expected)
-    })
-
-    it('should generate delta file for both tables', async () => {
-      const outputFile = path.resolve(__dirname, 'output', 'multiple-delta.csv')
-      const expectedFile = path.resolve(__dirname, 'fixtures', 'expected', 'multiple-delta.csv')
-
-      const info = await generateDelta(
-        {
+      },
+      {
+        name: 'delta file for both tables',
+        file: 'multiple-delta.csv',
+        count: 6,
+        delta: {
           namespace: 'springfield', // to be inferred
-          client: client,
           since: '2017-06-02 15:02:38.000000 GMT',
-          outputFilepath: path.resolve(__dirname, './output', './multiple-delta.csv'),
           actionAliases: {
             insert: 'i',
             update: 'u',
@@ -152,25 +126,14 @@ describe('Run the basic usage example', function () {
             ]
           }
         }
-      )
-      expect(info.totalCount).to.eql(6)
-
-      const output = readRecords(outputFile)
-      const expected = readRecords(expectedFile)
-
-      expect(output).to.eql(expected)
-    })
-
-    it('generate the delta file with transformer', async () => {
-      const outputFile = path.resolve(__dirname, 'output', 'upper-cased.csv')
-      const expectedFile = path.resolve(__dirname, 'fixtures', 'expected', 'upper-cased.csv')
-
-      const info = await generateDelta(
-        {
+      },
+      {
+        name: 'delta file with transformer',
+        file: 'upper-cased.csv',
+        count: 5,
+        delta: {
           namespace: 'springfield',
-          client: client,
           since: '2016-06-03 15:02:38.000000 GMT',
-          outputFilepath: outputFile,
           actionAliases: {
             insert: 'i',
             update: 'u',
@@ -193,15 +156,28 @@ describe('Run the basic usage example', function () {
             ]
           }
         }
-      )
+      }
+    ]
 
-      expect(info.totalCount).to.eql(5)
+    for (const test of tests) {
+      it(test.name, async () => {
+        const outputFile = path.resolve(__dirname, 'output', test.file)
+        const expectedFile = path.resolve(__dirname, 'fixtures', 'expected', test.file)
+        test.delta.client = client
+        test.delta.outputFilepath = outputFile
 
-      const output = readRecords(outputFile)
-      const expected = readRecords(expectedFile)
+        const info = await generateDelta(
+          test.delta
+        )
 
-      expect(output).to.eql(expected)
-    })
+        expect(info.totalCount).to.eql(test.count)
+
+        const output = readRecords(outputFile)
+        const expected = readRecords(expectedFile)
+
+        expect(output).to.eql(expected)
+      })
+    }
   })
 
   describe('cleanup', () => {
