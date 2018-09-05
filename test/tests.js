@@ -217,7 +217,7 @@ describe('Run the basic usage example', function () {
 })
 
 function readRecords (fileName) {
-  const file = fs.readFileSync(fileName, {encoding: 'utf8'})
+  const file = fs.readFileSync(fileName, { encoding: 'utf8' })
   const rows = file.split('\n')
   return rows
 }
