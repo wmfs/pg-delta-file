@@ -184,6 +184,39 @@ describe('Run the basic usage example', function () {
             ]
           }
         }
+      },
+      {
+        name: 'delta file with filter and transform',
+        file: 'filtered-upper-cased.csv',
+        count: 3,
+        delta: {
+          namespace: 'springfield',
+          since: '2016-06-03 15:02:38.000000 GMT',
+          actionAliases: {
+            insert: 'i',
+            update: 'u',
+            delete: 'd'
+          },
+          filterFunction: function (row) {
+            return +row[6] < 60
+          },
+          transformFunction: function (row, callback) {
+            row[4] = row[4].toUpperCase()
+            row[5] = row[5].toUpperCase()
+            callback(null, row)
+          },
+          csvExtracts: {
+            people: [
+              73,
+              '$ACTION',
+              '$ROW_NUM',
+              '@social_security_id',
+              '@first_name',
+              '@last_name',
+              '@age'
+            ]
+          }
+        }
       }
     ]
 

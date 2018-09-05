@@ -30,6 +30,7 @@ await generateDeltaFiles(
   createdColumnName: '_created',
   modifiedColumnName: '_modified',
   transformFunction: (row, callback) => { ... } // optional data transformation
+  filterFunction: (row) => { ... } // option filter predicate
   csvExtracts: {
     '[schema.]people': [
       'PERSON', // Just output a literal
