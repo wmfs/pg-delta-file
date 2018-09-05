@@ -1,3 +1,28 @@
+# [1.5.0](https://github.com/wmfs/pg-delta-file/compare/v1.4.0...v1.5.0) (2018-09-05)
+
+
+### ✨ Features
+
+* pg-delta-file takes option filterFunction, which can be used to strip out unwanted rows ([9671498](https://github.com/wmfs/pg-delta-file/commit/9671498))
+
+
+### 🛠 Builds
+
+* **deps-dev:** update [@semantic-release](https://github.com/semantic-release)/git requirement from 7.0.1 to 7.0.2 ([e3bc519](https://github.com/wmfs/pg-delta-file/commit/e3bc519))
+* **deps-dev:** update [@semantic-release](https://github.com/semantic-release)/git requirement from 7.0.2 to 7.0.3 ([df5d0fe](https://github.com/wmfs/pg-delta-file/commit/df5d0fe))
+* **deps-dev:** update codecov requirement from 3.0.4 to 3.1.0 ([19066d5](https://github.com/wmfs/pg-delta-file/commit/19066d5))
+* **deps-dev:** update nyc requirement from 12.0.2 to 13.0.1 ([83fcdf7](https://github.com/wmfs/pg-delta-file/commit/83fcdf7))
+* **deps-dev:** update semantic-release requirement from 15.9.11 to 15.9.12 ([887b2b7](https://github.com/wmfs/pg-delta-file/commit/887b2b7))
+* **deps-dev:** update semantic-release requirement from 15.9.8 to 15.9.9 ([d54d837](https://github.com/wmfs/pg-delta-file/commit/d54d837))
+* **deps-dev:** update semantic-release requirement from 15.9.9 to 15.9.11 ([3f56985](https://github.com/wmfs/pg-delta-file/commit/3f56985))
+* **dev-deps:** Move to standard 12.0.1 ([0d92228](https://github.com/wmfs/pg-delta-file/commit/0d92228))
+
+
+### 🚨 Tests
+
+* New (failing) test for filterFunction ([a3aa474](https://github.com/wmfs/pg-delta-file/commit/a3aa474))
+* table driven tests ([15f9230](https://github.com/wmfs/pg-delta-file/commit/15f9230))
+
 # [1.4.0](https://github.com/wmfs/pg-delta-file/compare/v1.3.0...v1.4.0) (2018-08-14)
 
 
