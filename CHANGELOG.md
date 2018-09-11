@@ -1,3 +1,15 @@
+# [1.6.0](https://github.com/wmfs/pg-delta-file/compare/v1.5.0...v1.6.0) (2018-09-11)
+
+
+### 🛠 Builds
+
+* **deps:** correct luxon version ([2e4ddb0](https://github.com/wmfs/pg-delta-file/commit/2e4ddb0))
+* **deps-dev:** update [@wmfs](https://github.com/wmfs)/hl-pg-client requirement ([9bdc90a](https://github.com/wmfs/pg-delta-file/commit/9bdc90a))
+* **deps-dev:** update [@wmfs](https://github.com/wmfs)/hl-pg-client requirement ([9e21af9](https://github.com/wmfs/pg-delta-file/commit/9e21af9))
+* **deps-dev:** update [@wmfs](https://github.com/wmfs)/hl-pg-client requirement ([516e60d](https://github.com/wmfs/pg-delta-file/commit/516e60d))
+* **deps-dev:** update semantic-release requirement ([2a960f9](https://github.com/wmfs/pg-delta-file/commit/2a960f9))
+* **deps-dev:** update semantic-release requirement ([3a9ea85](https://github.com/wmfs/pg-delta-file/commit/3a9ea85))
+
 # [1.5.0](https://github.com/wmfs/pg-delta-file/compare/v1.4.0...v1.5.0) (2018-09-05)
 
 
