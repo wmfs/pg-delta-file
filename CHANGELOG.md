@@ -1,3 +1,13 @@
+# [1.7.0](https://github.com/wmfs/pg-delta-file/compare/v1.6.0...v1.7.0) (2018-09-12)
+
+
+### 🛠 Builds
+
+* **deps:** update lodash requirement from 4.17.10 to 4.17.11 ([5d11673](https://github.com/wmfs/pg-delta-file/commit/5d11673))
+* **deps-dev:** update [@semantic-release](https://github.com/semantic-release)/git requirement ([866c9ae](https://github.com/wmfs/pg-delta-file/commit/866c9ae))
+* **deps-dev:** update [@wmfs](https://github.com/wmfs)/hl-pg-client requirement ([34f882d](https://github.com/wmfs/pg-delta-file/commit/34f882d))
+* **deps-dev:** update semantic-release requirement ([1b76f5c](https://github.com/wmfs/pg-delta-file/commit/1b76f5c))
+
 # [1.6.0](https://github.com/wmfs/pg-delta-file/compare/v1.5.0...v1.6.0) (2018-09-11)
 
 
