@@ -1,3 +1,10 @@
+# [1.10.0](https://github.com/wmfs/pg-delta-file/compare/v1.9.0...v1.10.0) (2018-10-01)
+
+
+### 🛠 Builds
+
+* **deps:** update luxon requirement from 1.4.1 to 1.4.2 ([9708daf](https://github.com/wmfs/pg-delta-file/commit/9708daf))
+
 # [1.9.0](https://github.com/wmfs/pg-delta-file/compare/v1.8.0...v1.9.0) (2018-09-28)
 
 
