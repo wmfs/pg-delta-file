@@ -1,3 +1,10 @@
+# [1.13.0](https://github.com/wmfs/pg-delta-file/compare/v1.12.0...v1.13.0) (2018-10-08)
+
+
+### 🛠 Builds
+
+* **deps:** update pg-query-stream requirement from 1.1.1 to 1.1.2 ([b1eced6](https://github.com/wmfs/pg-delta-file/commit/b1eced6))
+
 # [1.12.0](https://github.com/wmfs/pg-delta-file/compare/v1.11.0...v1.12.0) (2018-10-04)
 
 
