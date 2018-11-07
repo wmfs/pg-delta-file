@@ -1,3 +1,11 @@
+# [1.19.0](https://github.com/wmfs/pg-delta-file/compare/v1.18.0...v1.19.0) (2018-11-07)
+
+
+### 🛠 Builds
+
+* **deps:** update pg requirement from 7.6.0 to 7.6.1 ([cee2294](https://github.com/wmfs/pg-delta-file/commit/cee2294))
+* **deps-dev:** update semantic-release requirement ([3c8453c](https://github.com/wmfs/pg-delta-file/commit/3c8453c))
+
 # [1.18.0](https://github.com/wmfs/pg-delta-file/compare/v1.17.0...v1.18.0) (2018-11-04)
 
 
