@@ -1,3 +1,10 @@
+## [1.25.1](https://github.com/wmfs/pg-delta-file/compare/v1.25.0...v1.25.1) (2018-11-30)
+
+
+### 🐛 Bug Fixes
+
+* Ensure delta queries are complete before issuing END ([58f591d](https://github.com/wmfs/pg-delta-file/commit/58f591d))
+
 # [1.25.0](https://github.com/wmfs/pg-delta-file/compare/v1.24.0...v1.25.0) (2018-11-27)
 
 
