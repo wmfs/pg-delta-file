@@ -1,3 +1,12 @@
+# [1.27.0](https://github.com/wmfs/pg-delta-file/compare/v1.26.0...v1.27.0) (2018-12-21)
+
+
+### 🛠 Builds
+
+* **deps:** Update luxon requirement from 1.8.1 to 1.8.3 ([#91](https://github.com/wmfs/pg-delta-file/issues/91)) ([10fe447](https://github.com/wmfs/pg-delta-file/commit/10fe447))
+* **deps-dev:** Update [@semantic-release](https://github.com/semantic-release)/git requirement ([#90](https://github.com/wmfs/pg-delta-file/issues/90)) ([dfdf042](https://github.com/wmfs/pg-delta-file/commit/dfdf042))
+* **deps-dev:** Update semantic-release requirement ([#92](https://github.com/wmfs/pg-delta-file/issues/92)) ([ce40b3b](https://github.com/wmfs/pg-delta-file/commit/ce40b3b))
+
 # [1.26.0](https://github.com/wmfs/pg-delta-file/compare/v1.25.1...v1.26.0) (2018-12-04)
 
 
