@@ -1,3 +1,16 @@
+# [1.28.0](https://github.com/wmfs/pg-delta-file/compare/v1.27.0...v1.28.0) (2019-06-26)
+
+
+### 🛠 Builds
+
+* **deps:** Update make-dir requirement from 1.3.0 to 3.0.0 ([9217fbe](https://github.com/wmfs/pg-delta-file/commit/9217fbe))
+* **deps:** Update pg-query-stream requirement from 1.1.2 to 2.0.0 ([423c362](https://github.com/wmfs/pg-delta-file/commit/423c362))
+* **deps-dev:** Update [@semantic-release](https://github.com/semantic-release)/changelog requirement ([a9209e3](https://github.com/wmfs/pg-delta-file/commit/a9209e3))
+* **deps-dev:** Update [@semantic-release](https://github.com/semantic-release)/git requirement ([bc686a2](https://github.com/wmfs/pg-delta-file/commit/bc686a2))
+* **deps-dev:** Update [@wmfs](https://github.com/wmfs)/hl-pg-client requirement ([b116a64](https://github.com/wmfs/pg-delta-file/commit/b116a64))
+* **deps-dev:** Update codecov requirement from 3.1.0 to 3.5.0 ([00bc10c](https://github.com/wmfs/pg-delta-file/commit/00bc10c))
+* **deps-dev:** Update nyc requirement from 13.1.0 to 14.1.1 ([7209702](https://github.com/wmfs/pg-delta-file/commit/7209702))
+
 # [1.27.0](https://github.com/wmfs/pg-delta-file/compare/v1.26.0...v1.27.0) (2018-12-21)
 
 
