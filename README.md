@@ -1,7 +1,7 @@
 # pg-delta-file
 [![Tymly Package](https://img.shields.io/badge/tymly-package-blue.svg)](https://tymly.io/)
 [![npm (scoped)](https://img.shields.io/npm/v/@wmfs/pg-delta-file.svg)](https://www.npmjs.com/package/@wmfs/pg-delta-file)
-[![Build Status](https://travis-ci.org/wmfs/pg-delta-file.svg?branch=master)](https://travis-ci.org/wmfs/pg-delta-file)
+[![CircleCI](https://circleci.com/gh/wmfs/pg-delta-file.svg?style=svg)](https://circleci.com/gh/wmfs/pg-delta-file)
 [![codecov](https://codecov.io/gh/wmfs/pg-delta-file/branch/master/graph/badge.svg)](https://codecov.io/gh/wmfs/pg-delta-file)
 [![CodeFactor](https://www.codefactor.io/repository/github/wmfs/pg-delta-file/badge)](https://www.codefactor.io/repository/github/wmfs/pg-delta-file)
 [![Dependabot badge](https://img.shields.io/badge/Dependabot-active-brightgreen.svg)](https://dependabot.com/)
