@@ -1,3 +1,21 @@
+# [1.30.0](https://github.com/wmfs/pg-delta-file/compare/v1.29.0...v1.30.0) (2019-07-11)
+
+
+### 🛠 Builds
+
+* **deps:** Update lodash requirement from 4.17.11 to 4.17.14 ([5aa6e46](https://github.com/wmfs/pg-delta-file/commit/5aa6e46))
+
+
+### 📚 Documentation
+
+* Add CircleCI badge ([65f7a83](https://github.com/wmfs/pg-delta-file/commit/65f7a83))
+
+
+### ⚙️ Continuous Integrations
+
+* **circle:** Add CircleCI config ([596c975](https://github.com/wmfs/pg-delta-file/commit/596c975))
+* **travis:** Remove Travis config ([beed7f1](https://github.com/wmfs/pg-delta-file/commit/beed7f1))
+
 # [1.29.0](https://github.com/wmfs/pg-delta-file/compare/v1.28.0...v1.29.0) (2019-07-02)
 
 
