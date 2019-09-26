@@ -40,7 +40,10 @@ describe('Run the basic usage example', function () {
         file: 'single-delta.csv',
         count: 5,
         info: {
-          totalCount: 5
+          totalCount: 5,
+          people: {
+            totalCount: 5
+          }
         },
         delta: {
           namespace: 'springfield',
@@ -68,7 +71,10 @@ describe('Run the basic usage example', function () {
         file: 'with-header.csv',
         count: 7,
         info: {
-          totalCount: 7
+          totalCount: 7,
+          people: {
+            totalCount: 5
+          }
         },
         delta: {
           namespace: 'springfield',
@@ -108,7 +114,13 @@ describe('Run the basic usage example', function () {
         file: 'multiple-delta.csv',
         count: 6,
         info: {
-          totalCount: 6
+          totalCount: 6,
+          homes: {
+            totalCount: 3
+          },
+          people: {
+            totalCount: 3
+          }
         },
         delta: {
           namespace: 'springfield', // to be inferred
@@ -141,7 +153,10 @@ describe('Run the basic usage example', function () {
         file: 'upper-cased.csv',
         count: 5,
         info: {
-          totalCount: 5
+          totalCount: 5,
+          people: {
+            totalCount: 5
+          }
         },
         delta: {
           namespace: 'springfield',
@@ -174,7 +189,10 @@ describe('Run the basic usage example', function () {
         file: 'filtered.csv',
         count: 3,
         info: {
-          totalCount: 3
+          totalCount: 3,
+          people: {
+            totalCount: 3
+          }
         },
         delta: {
           namespace: 'springfield',
@@ -205,7 +223,10 @@ describe('Run the basic usage example', function () {
         file: 'filtered-upper-cased.csv',
         count: 3,
         info: {
-          totalCount: 3
+          totalCount: 3,
+          people: {
+            totalCount: 3
+          }
         },
         delta: {
           namespace: 'springfield',
