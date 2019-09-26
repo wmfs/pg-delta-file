@@ -191,7 +191,8 @@ describe('Run the basic usage example', function () {
         info: {
           totalCount: 3,
           people: {
-            totalCount: 3
+            totalCount: 3,
+            filteredCount: 2
           }
         },
         delta: {
@@ -225,7 +226,8 @@ describe('Run the basic usage example', function () {
         info: {
           totalCount: 3,
           people: {
-            totalCount: 3
+            totalCount: 3,
+            filteredCount: 2
           }
         },
         delta: {
