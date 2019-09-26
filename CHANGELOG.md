@@ -1,3 +1,21 @@
+# [1.31.0](https://github.com/wmfs/pg-delta-file/compare/v1.30.0...v1.31.0) (2019-09-26)
+
+
+### ✨ Features
+
+* Per-model info includes count of filtered rows, if applicable ([bdb7da8](https://github.com/wmfs/pg-delta-file/commit/bdb7da8))
+* Returned info additionally includes per-model totalCounts ([556ffb7](https://github.com/wmfs/pg-delta-file/commit/556ffb7))
+
+
+### 🛠 Builds
+
+* **deps-dev:** update dev dependancies ([ac4d482](https://github.com/wmfs/pg-delta-file/commit/ac4d482))
+
+
+### 🚨 Tests
+
+* Tweak delta export tests to check whole info object ([a6e8725](https://github.com/wmfs/pg-delta-file/commit/a6e8725))
+
 # [1.30.0](https://github.com/wmfs/pg-delta-file/compare/v1.29.0...v1.30.0) (2019-07-11)
 
 
