@@ -39,6 +39,9 @@ describe('Run the basic usage example', function () {
         name: 'single delta',
         file: 'single-delta.csv',
         count: 5,
+        info: {
+          totalCount: 5
+        },
         delta: {
           namespace: 'springfield',
           since: '2016-06-03 15:02:38.000000 GMT',
@@ -64,6 +67,9 @@ describe('Run the basic usage example', function () {
         name: 'delta file with header',
         file: 'with-header.csv',
         count: 7,
+        info: {
+          totalCount: 7
+        },
         delta: {
           namespace: 'springfield',
           since: '2016-06-03 15:02:38.000000 GMT',
@@ -101,6 +107,9 @@ describe('Run the basic usage example', function () {
         name: 'delta file for both tables',
         file: 'multiple-delta.csv',
         count: 6,
+        info: {
+          totalCount: 6
+        },
         delta: {
           namespace: 'springfield', // to be inferred
           since: '2017-06-02 15:02:38.000000 GMT',
@@ -131,6 +140,9 @@ describe('Run the basic usage example', function () {
         name: 'delta file with transformer',
         file: 'upper-cased.csv',
         count: 5,
+        info: {
+          totalCount: 5
+        },
         delta: {
           namespace: 'springfield',
           since: '2016-06-03 15:02:38.000000 GMT',
@@ -161,6 +173,9 @@ describe('Run the basic usage example', function () {
         name: 'delta file with filter',
         file: 'filtered.csv',
         count: 3,
+        info: {
+          totalCount: 3
+        },
         delta: {
           namespace: 'springfield',
           since: '2016-06-03 15:02:38.000000 GMT',
@@ -189,6 +204,9 @@ describe('Run the basic usage example', function () {
         name: 'delta file with filter and transform',
         file: 'filtered-upper-cased.csv',
         count: 3,
+        info: {
+          totalCount: 3
+        },
         delta: {
           namespace: 'springfield',
           since: '2016-06-03 15:02:38.000000 GMT',
@@ -232,6 +250,7 @@ describe('Run the basic usage example', function () {
         )
 
         expect(info.totalCount).to.eql(test.count)
+        expect(info).to.eql(test.info)
 
         const output = readRecords(outputFile)
         const expected = readRecords(expectedFile)
