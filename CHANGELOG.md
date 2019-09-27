@@ -1,3 +1,10 @@
+# [1.32.0](https://github.com/wmfs/pg-delta-file/compare/v1.31.0...v1.32.0) (2019-09-27)
+
+
+### ✨ Features
+
+* Include header and footer counts. ([780464c](https://github.com/wmfs/pg-delta-file/commit/780464c))
+
 # [1.31.0](https://github.com/wmfs/pg-delta-file/compare/v1.30.0...v1.31.0) (2019-09-26)
 
 
