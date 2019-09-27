@@ -72,8 +72,14 @@ describe('Run the basic usage example', function () {
         count: 7,
         info: {
           totalCount: 7,
+          '-HEADER-': {
+            totalCount: 1
+          },
           people: {
             totalCount: 5
+          },
+          '-FOOTER-': {
+            totalCount: 1
           }
         },
         delta: {
