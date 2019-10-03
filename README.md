@@ -19,7 +19,7 @@
 ```
 const generateDeltaFile = require('pg-delta-file')
 
-await generateDeltaFiles(
+const deltaInfo = await generateDeltaFiles(
   since: '2017-07-16T20:37:26.847Z',
   outputFilepath: '/some/temp/dir/people-delta.csv',
   actionAliases: {
@@ -31,6 +31,7 @@ await generateDeltaFiles(
   modifiedColumnName: '_modified',
   transformFunction: (row, callback) => { ... } // optional data transformation
   filterFunction: (row) => { ... } // option filter predicate
+  dryrun: true // optional flag, set true to return info without generating output file 
   csvExtracts: {
     '[schema.]people': [
       'PERSON', // Just output a literal
@@ -49,6 +50,19 @@ await generateDeltaFiles(
     ]
   }
 )
+
+/*
+{
+  "totalCount": 5,
+  "people": {
+    "totalCount": 5
+  },
+  "address": {
+    "totalCount": 3
+    "filteredCount": 2
+  }
+} 
+*/
 ```
 
 ## <a name="install"></a>Install
