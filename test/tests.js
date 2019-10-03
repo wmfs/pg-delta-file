@@ -67,7 +67,7 @@ describe('Run the basic usage example', function () {
         }
       },
       {
-        name: 'delta file with header',
+        name: 'delta with header',
         file: 'with-header.csv',
         count: 7,
         info: {
@@ -116,7 +116,7 @@ describe('Run the basic usage example', function () {
         }
       },
       {
-        name: 'delta file for both tables',
+        name: 'delta for both tables',
         file: 'multiple-delta.csv',
         count: 6,
         info: {
@@ -155,7 +155,7 @@ describe('Run the basic usage example', function () {
         }
       },
       {
-        name: 'delta file with transformer',
+        name: 'delta with transformer',
         file: 'upper-cased.csv',
         count: 5,
         info: {
@@ -191,7 +191,7 @@ describe('Run the basic usage example', function () {
         }
       },
       {
-        name: 'delta file with filter',
+        name: 'delta with filter',
         file: 'filtered.csv',
         count: 3,
         info: {
@@ -226,7 +226,7 @@ describe('Run the basic usage example', function () {
         }
       },
       {
-        name: 'delta file with filter and transform',
+        name: 'delta with filter and transform',
         file: 'filtered-upper-cased.csv',
         count: 3,
         info: {
