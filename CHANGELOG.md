@@ -1,3 +1,15 @@
+## [1.32.1](https://github.com/wmfs/pg-delta-file/compare/v1.32.0...v1.32.1) (2019-10-03)
+
+
+### 🐛 Bug Fixes
+
+* Lint fixes ([ea0ef94](https://github.com/wmfs/pg-delta-file/commit/ea0ef94))
+
+
+### 🛠 Builds
+
+* Update dependencies ([feec851](https://github.com/wmfs/pg-delta-file/commit/feec851))
+
 # [1.32.0](https://github.com/wmfs/pg-delta-file/compare/v1.31.0...v1.32.0) (2019-09-27)
 
 
