@@ -273,9 +273,16 @@ describe('Run the basic usage example', function () {
         const outputFile = path.resolve(__dirname, 'output', test.file)
         const expectedFile = path.resolve(__dirname, 'fixtures', 'expected', test.file)
 
+        let callbackInfo = null
+        let callbackProgress = []
+
         test.delta.client = client
         test.delta.outputFilepath = outputFile
         test.delta.dryrun = false
+        test.delta.progressCallback = (info, complete) => {
+          callbackInfo = info;
+          callbackProgress.push(complete)
+        }
 
         const info = await generateDelta(
           test.delta
@@ -283,6 +290,13 @@ describe('Run the basic usage example', function () {
 
         expect(info.totalCount).to.eql(test.count)
         expect(info).to.eql(test.info)
+        expect(info).to.eql(callbackInfo)
+
+
+        const expectedProgress = callbackProgress.map(() => false)
+        expectedProgress[callbackProgress.length - 1] = true
+
+        expect(expectedProgress).to.eql(callbackProgress)
 
         const output = readRecords(outputFile)
         const expected = readRecords(expectedFile)
