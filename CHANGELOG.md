@@ -1,3 +1,21 @@
+# [1.33.0](https://github.com/wmfs/pg-delta-file/compare/v1.32.1...v1.33.0) (2019-12-01)
+
+
+### ✨ Features
+
+* Report delta file progress through options.progressCallback ([](https://github.com/wmfs/pg-delta-file/commit/0046be7))
+
+
+### 🐛 Bug Fixes
+
+* Pass export complete flag to progressCallback ([](https://github.com/wmfs/pg-delta-file/commit/c53e95a))
+* Prevent undefined when no progress callback provided. ([](https://github.com/wmfs/pg-delta-file/commit/816d05e))
+
+
+### 💎 Styles
+
+* Lint fix ([](https://github.com/wmfs/pg-delta-file/commit/8acfcba))
+
 ## [1.32.1](https://github.com/wmfs/pg-delta-file/compare/v1.32.0...v1.32.1) (2019-10-03)
 
 
