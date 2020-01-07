@@ -1,3 +1,14 @@
+# [1.34.0](https://github.com/wmfs/pg-delta-file/compare/v1.33.0...v1.34.0) (2020-01-07)
+
+
+### 🛠 Builds
+
+* **deps:** Bump luxon from 1.19.3 to 1.21.3 ([c8cba62](https://github.com/wmfs/pg-delta-file/commit/c8cba623045ad2ff07ead1acfed0efce4115f6ff))
+* **deps:** Bump pg-query-stream from 2.0.0 to 2.1.2 ([aadfb9b](https://github.com/wmfs/pg-delta-file/commit/aadfb9b510abe01e31bfdf5e062d5c86f21af22a))
+* **deps-dev:** Bump [@wmfs](https://github.com/wmfs)/hl-pg-client from 1.13.0 to 1.14.0 ([e69c80d](https://github.com/wmfs/pg-delta-file/commit/e69c80d5b4aae74884222127aa38216097ab66c8))
+* **deps-dev:** Bump mocha from 6.2.2 to 7.0.0 ([98fa418](https://github.com/wmfs/pg-delta-file/commit/98fa418567459ac7532578111f5f757836a580c4))
+* **deps-dev:** bump packages ([176879a](https://github.com/wmfs/pg-delta-file/commit/176879a421d53587574736428325d5962a8d792c))
+
 # [1.33.0](https://github.com/wmfs/pg-delta-file/compare/v1.32.1...v1.33.0) (2019-12-01)
 
 
