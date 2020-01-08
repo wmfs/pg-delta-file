@@ -1,3 +1,10 @@
+# [1.35.0](https://github.com/wmfs/pg-delta-file/compare/v1.34.0...v1.35.0) (2020-01-08)
+
+
+### 🛠 Builds
+
+* **deps:** Bump pg from 7.12.1 to 7.17.0 ([c73f000](https://github.com/wmfs/pg-delta-file/commit/c73f0007a4f4b2047098c4d34a2400e98204d9bf))
+
 # [1.34.0](https://github.com/wmfs/pg-delta-file/compare/v1.33.0...v1.34.0) (2020-01-07)
 
 
