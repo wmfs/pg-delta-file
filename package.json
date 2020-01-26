@@ -22,7 +22,7 @@
   "main": "./lib/index.js",
   "dependencies": {
     "lodash": "4.17.15",
-    "luxon": "1.21.3",
+    "luxon": "1.22.0",
     "make-dir": "3.0.0",
     "pg": "7.17.0",
     "pg-query-stream": "2.1.2"
