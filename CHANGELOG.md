@@ -1,3 +1,23 @@
+# [1.36.0](https://github.com/wmfs/pg-delta-file/compare/v1.35.0...v1.36.0) (2020-01-27)
+
+
+### ✨ Features
+
+* Exporting CSV Delta File state resource to accept array of functions [ch405] ([8c38f92](https://github.com/wmfs/pg-delta-file/commit/8c38f92a633460c1f1a96055023304e073ad82f3))
+* tidy up _transform ([d04cb13](https://github.com/wmfs/pg-delta-file/commit/d04cb13632d2322142d1267fb8eeaec23ecf3829))
+
+
+### 🐛 Bug Fixes
+
+* move transform functions up and perform array of functions properly ([a96850f](https://github.com/wmfs/pg-delta-file/commit/a96850f4757ed3eb491b327fae8696e8551b3fef))
+
+
+### 🛠 Builds
+
+* **deps-dev:** Bump codecov from 3.6.1 to 3.6.2 ([16dca41](https://github.com/wmfs/pg-delta-file/commit/16dca416fae6fe307ccade9f693d936df05fed4b))
+* **deps-dev:** Bump conventional-changelog-metahub from 3.0.0 to 4.0.0 ([9df7441](https://github.com/wmfs/pg-delta-file/commit/9df7441059677e6362eb41a3bd5ef5249266f427))
+* **deps-dev:** Bump mocha from 7.0.0 to 7.0.1 ([8cd38b4](https://github.com/wmfs/pg-delta-file/commit/8cd38b4e4ed8e8ff9f774ac688c10122c94a296d))
+
 # [1.35.0](https://github.com/wmfs/pg-delta-file/compare/v1.34.0...v1.35.0) (2020-01-08)
 
 
