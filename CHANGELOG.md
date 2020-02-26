@@ -1,3 +1,12 @@
+# [1.45.0](https://github.com/wmfs/pg-delta-file/compare/v1.44.0...v1.45.0) (2020-02-26)
+
+
+### 🛠 Builds
+
+* **deps:** Bump pg-query-stream from 3.0.2 to 3.0.3 ([1beaa32](https://github.com/wmfs/pg-delta-file/commit/1beaa323af2b0aba6c696de694ce010c12d52924))
+* **deps-dev:** Bump [@semantic-release](https://github.com/semantic-release)/git from 7.0.18 to 9.0.0 ([def806c](https://github.com/wmfs/pg-delta-file/commit/def806c63fc4061ba036444d7519c9c6382b63b9))
+* **deps-dev:** Bump semantic-release from 15.14.0 to 17.0.4 ([e4ef864](https://github.com/wmfs/pg-delta-file/commit/e4ef864450eb22e8bb7fba6a5d44c28531b9f28b))
+
 # [1.44.0](https://github.com/wmfs/pg-delta-file/compare/v1.43.0...v1.44.0) (2020-02-13)
 
 
