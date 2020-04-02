@@ -1,3 +1,22 @@
+# [1.47.0](https://github.com/wmfs/pg-delta-file/compare/v1.46.0...v1.47.0) (2020-04-02)
+
+
+### 🛠 Builds
+
+* **deps:** Bump luxon from 1.22.0 to 1.22.2 ([bd49e22](https://github.com/wmfs/pg-delta-file/commit/bd49e2207bf1b39579896e9243db2effcf05d2fc))
+* **deps-dev:** Bump [@semantic-release](https://github.com/semantic-release)/changelog from 5.0.0 to 5.0.1 ([8e375da](https://github.com/wmfs/pg-delta-file/commit/8e375daa1bc8052b11db1093f463a938149a8166))
+* **deps-dev:** Bump [@wmfs](https://github.com/wmfs)/hl-pg-client from 1.17.0 to 1.18.0 ([a10d901](https://github.com/wmfs/pg-delta-file/commit/a10d901d50366df477b9b9652c9805648978689c))
+* **deps-dev:** Bump conventional-changelog-metahub from 4.0.0 to 4.0.1 ([3df7f88](https://github.com/wmfs/pg-delta-file/commit/3df7f887c13533c09af9b9631359a6853a5c8463))
+* **deps-dev:** Bump mocha from 7.0.1 to 7.1.0 ([843e949](https://github.com/wmfs/pg-delta-file/commit/843e9498684b989c2ad2740d809dfd2a0b6c2db3))
+* **deps-dev:** Bump mocha from 7.1.0 to 7.1.1 ([d688b76](https://github.com/wmfs/pg-delta-file/commit/d688b766b07052c635de51f4e1f2d778ba40e728))
+* **deps-dev:** Bump standard from 14.3.1 to 14.3.2 ([f85f5eb](https://github.com/wmfs/pg-delta-file/commit/f85f5eb2cac83299e37f43d7d5cf32aa8024fe02))
+* **deps-dev:** Bump standard from 14.3.2 to 14.3.3 ([d9b5a51](https://github.com/wmfs/pg-delta-file/commit/d9b5a519e7a11600f5687b5b8ba11ae1500a3990))
+
+
+### ⚙️ Continuous Integrations
+
+* **circle:** add context env var config to config.yml ([ee3a17e](https://github.com/wmfs/pg-delta-file/commit/ee3a17ee263508023b933f51d91f5a177b531e6c))
+
 # [1.46.0](https://github.com/wmfs/pg-delta-file/compare/v1.45.0...v1.46.0) (2020-02-26)
 
 
