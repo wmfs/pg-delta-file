@@ -1,3 +1,12 @@
+# [1.50.0](https://github.com/wmfs/pg-delta-file/compare/v1.49.0...v1.50.0) (2020-04-05)
+
+
+### 🛠 Builds
+
+* **deps:** Bump luxon from 1.22.2 to 1.23.0 ([84f2999](https://github.com/wmfs/pg-delta-file/commit/84f29991c85cc1184a3407709eaa3716476d8fa3))
+* **deps-dev:** Bump [@wmfs](https://github.com/wmfs)/hl-pg-client from 1.18.0 to 1.19.0 ([9a2ea19](https://github.com/wmfs/pg-delta-file/commit/9a2ea194ab0126d28d305e7a78febd7bcd03a0ee))
+* **deps-dev:** Bump nyc from 15.0.0 to 15.0.1 ([616c45d](https://github.com/wmfs/pg-delta-file/commit/616c45dfeed85c3afc32d5af5c56026945f97d5f))
+
 # [1.49.0](https://github.com/wmfs/pg-delta-file/compare/v1.48.0...v1.49.0) (2020-04-02)
 
 
