@@ -1,3 +1,10 @@
+## [1.50.1](https://github.com/wmfs/pg-delta-file/compare/v1.50.0...v1.50.1) (2020-04-14)
+
+
+### 🐛 Bug Fixes
+
+* snakecase the namespace ([999522d](https://github.com/wmfs/pg-delta-file/commit/999522d1be153fd58191c71d018653457171e1ac))
+
 # [1.50.0](https://github.com/wmfs/pg-delta-file/compare/v1.49.0...v1.50.0) (2020-04-05)
 
 
