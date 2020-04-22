@@ -24,7 +24,7 @@
     "lodash": "4.17.15",
     "luxon": "1.23.0",
     "make-dir": "3.0.2",
-    "pg": "8.0.2",
+    "pg": "8.0.3",
     "pg-query-stream": "3.0.6"
   },
   "devDependencies": {
