@@ -1,3 +1,16 @@
+# [1.53.0](https://github.com/wmfs/pg-delta-file/compare/v1.52.0...v1.53.0) (2020-05-11)
+
+
+### 🛠 Builds
+
+* **deps:** Bump pg-query-stream from 3.0.6 to 3.0.8 ([ab5ce80](https://github.com/wmfs/pg-delta-file/commit/ab5ce80b662169c419ec6272a4f4db482c5fb766))
+* **deps-dev:** Bump [@wmfs](https://github.com/wmfs)/hl-pg-client from 1.19.0 to 1.20.0 ([f3f3edf](https://github.com/wmfs/pg-delta-file/commit/f3f3edf243e01709552e575ea32341edc877d17c))
+* **deps-dev:** Bump cz-conventional-changelog from 3.1.0 to 3.2.0 ([1d50047](https://github.com/wmfs/pg-delta-file/commit/1d500474e0c508d8395c4bce38f2549a4afca42e))
+* **deps-dev:** Bump mocha from 7.1.1 to 7.1.2 ([10d77f1](https://github.com/wmfs/pg-delta-file/commit/10d77f191c70984801f22bc453df2fd0aa91cef0))
+* **deps-dev:** Bump semantic-release from 17.0.4 to 17.0.5 ([a81ff19](https://github.com/wmfs/pg-delta-file/commit/a81ff1975252d946c114dd970f00c5c453481882))
+* **deps-dev:** Bump semantic-release from 17.0.5 to 17.0.6 ([f0b7ea9](https://github.com/wmfs/pg-delta-file/commit/f0b7ea975768ac58e40abe449912392088bb020a))
+* **deps-dev:** Bump semantic-release from 17.0.6 to 17.0.7 ([9f137a6](https://github.com/wmfs/pg-delta-file/commit/9f137a6a23df208d5615259234e8ebbe402b5d2a))
+
 # [1.52.0](https://github.com/wmfs/pg-delta-file/compare/v1.51.0...v1.52.0) (2020-04-15)
 
 
