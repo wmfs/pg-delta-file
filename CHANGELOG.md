@@ -1,3 +1,15 @@
+# [1.55.0](https://github.com/wmfs/pg-delta-file/compare/v1.54.0...v1.55.0) (2020-05-31)
+
+
+### 🛠 Builds
+
+* **deps:** Bump make-dir from 3.0.2 to 3.1.0 ([03d09c8](https://github.com/wmfs/pg-delta-file/commit/03d09c817a61f871bf6c4622ec4b60e982984c4f))
+* **deps-dev:** Bump [@wmfs](https://github.com/wmfs)/hl-pg-client from 1.20.0 to 1.21.0 ([6ba1d67](https://github.com/wmfs/pg-delta-file/commit/6ba1d676680678843e95b6f414b2bd26fb683c63))
+* **deps-dev:** Bump codecov from 3.6.5 to 3.7.0 ([866cab5](https://github.com/wmfs/pg-delta-file/commit/866cab543b05ff4211089834a4bb48554a059985))
+* **deps-dev:** Bump mocha from 7.1.2 to 7.2.0 ([189f152](https://github.com/wmfs/pg-delta-file/commit/189f152d1c7f689af1b0142362e321205478e2ca))
+* **deps-dev:** Bump semantic-release from 17.0.7 to 17.0.8 ([aebfb43](https://github.com/wmfs/pg-delta-file/commit/aebfb435279aad1dbc83fcefd6e14da7f1059b08))
+* **deps-dev:** Bump standard from 14.3.3 to 14.3.4 ([541b8e9](https://github.com/wmfs/pg-delta-file/commit/541b8e920aef299575243d924d66f5ca4dabf677))
+
 # [1.54.0](https://github.com/wmfs/pg-delta-file/compare/v1.53.0...v1.54.0) (2020-05-11)
 
 
