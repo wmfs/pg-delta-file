@@ -1,3 +1,19 @@
+# [1.56.0](https://github.com/wmfs/pg-delta-file/compare/v1.55.0...v1.56.0) (2020-07-13)
+
+
+### 🛠 Builds
+
+* **deps:** Bump lodash from 4.17.15 to 4.17.19 ([9af39ce](https://github.com/wmfs/pg-delta-file/commit/9af39ce76bc1a0de668633494d27f643275b4ce7))
+* **deps-dev:** Bump mocha from 7.2.0 to 8.0.1 ([7d859c5](https://github.com/wmfs/pg-delta-file/commit/7d859c59ac8f65c863f2c15931653d4b0b8bec82))
+* **deps-dev:** Bump nyc from 15.0.1 to 15.1.0 ([4e74eba](https://github.com/wmfs/pg-delta-file/commit/4e74eba22837eb3021bb32fde4da553e0ab24b66))
+* **deps-dev:** Bump semantic-release from 17.0.8 to 17.1.0 ([53d100d](https://github.com/wmfs/pg-delta-file/commit/53d100d6d2d31daf805e740f40408a1fce3077fd))
+* **deps-dev:** Bump semantic-release from 17.1.0 to 17.1.1 ([88c1c20](https://github.com/wmfs/pg-delta-file/commit/88c1c20d01b06990c7ae0698cc877745bad3b7f2))
+
+
+### ⚙️ Continuous Integrations
+
+* **circle:** use updated circle node image [skip ci] ([ecc467b](https://github.com/wmfs/pg-delta-file/commit/ecc467bbc42ad2c33543197b2c47499d3f4b1bf5))
+
 # [1.55.0](https://github.com/wmfs/pg-delta-file/compare/v1.54.0...v1.55.0) (2020-05-31)
 
 
