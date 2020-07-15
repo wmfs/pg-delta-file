@@ -1,3 +1,10 @@
+# [1.58.0](https://github.com/wmfs/pg-delta-file/compare/v1.57.0...v1.58.0) (2020-07-15)
+
+
+### 🛠 Builds
+
+* **deps:** Bump pg-query-stream from 3.0.8 to 3.2.0 ([085724e](https://github.com/wmfs/pg-delta-file/commit/085724e8979d3c03a3cf315fbab56a759053917a))
+
 # [1.57.0](https://github.com/wmfs/pg-delta-file/compare/v1.56.0...v1.57.0) (2020-07-15)
 
 
