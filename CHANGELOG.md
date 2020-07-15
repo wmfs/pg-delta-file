@@ -1,3 +1,10 @@
+# [1.57.0](https://github.com/wmfs/pg-delta-file/compare/v1.56.0...v1.57.0) (2020-07-15)
+
+
+### 🛠 Builds
+
+* **deps:** Bump pg from 8.0.2 to 8.3.0 ([7ec846f](https://github.com/wmfs/pg-delta-file/commit/7ec846f14fb9bf4e3e485087685878fa271527b8))
+
 # [1.56.0](https://github.com/wmfs/pg-delta-file/compare/v1.55.0...v1.56.0) (2020-07-13)
 
 
