@@ -1,3 +1,20 @@
+# [1.59.0](https://github.com/wmfs/pg-delta-file/compare/v1.58.0...v1.59.0) (2020-08-17)
+
+
+### 🛠 Builds
+
+* **deps:** Bump lodash from 4.17.19 to 4.17.20 ([16bf457](https://github.com/wmfs/pg-delta-file/commit/16bf457791ee8bb76ee273d557c0f241763d8e0e))
+* **deps-dev:** Bump [@wmfs](https://github.com/wmfs)/hl-pg-client from 1.21.0 to 1.22.0 ([734f5b5](https://github.com/wmfs/pg-delta-file/commit/734f5b5b58a866b595010353f38e3af83a385bcb))
+* **deps-dev:** Bump codecov from 3.7.0 to 3.7.1 ([09ceb41](https://github.com/wmfs/pg-delta-file/commit/09ceb41b8a6656b6022379146d2aa0f027ba0e70))
+* **deps-dev:** Bump codecov from 3.7.1 to 3.7.2 ([748cb65](https://github.com/wmfs/pg-delta-file/commit/748cb65f8a2cd7032a740fab7ff5bcde8a9df43e))
+* **deps-dev:** Bump mocha from 8.0.1 to 8.1.0 ([0247617](https://github.com/wmfs/pg-delta-file/commit/0247617098c7dec6d2566bb2388dfce68fb26bb8))
+* **deps-dev:** Bump mocha from 8.1.0 to 8.1.1 ([d95f9d0](https://github.com/wmfs/pg-delta-file/commit/d95f9d056396e5105c1132e856bd434e814aedca))
+
+
+### ⚙️ Continuous Integrations
+
+* **circle:** separate lint job [ch1009] ([5dbbe32](https://github.com/wmfs/pg-delta-file/commit/5dbbe320d332373c346b9c7ac01f70b0ae5f68ec))
+
 # [1.58.0](https://github.com/wmfs/pg-delta-file/compare/v1.57.0...v1.58.0) (2020-07-15)
 
 
