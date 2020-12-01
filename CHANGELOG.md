@@ -1,3 +1,40 @@
+# [1.65.0](https://github.com/wmfs/pg-delta-file/compare/v1.64.0...v1.65.0) (2020-12-01)
+
+
+### ✨ Features
+
+* Allow data to be accessed for the header [ch3358] ([ce97a58](https://github.com/wmfs/pg-delta-file/commit/ce97a5868108265c02c4223495debcf775e02319))
+
+
+### 🛠 Builds
+
+* **deps-dev:** Bump [@wmfs](https://github.com/wmfs)/hl-pg-client from 1.23.0 to 1.25.0 ([50d2adf](https://github.com/wmfs/pg-delta-file/commit/50d2adf58f97b6a894d92adfca635875d7a31fa6))
+* **deps-dev:** Bump codecov from 3.7.2 to 3.8.0 ([3fceab5](https://github.com/wmfs/pg-delta-file/commit/3fceab5500dde2275ca8ae678064855e15506af9))
+* **deps-dev:** Bump codecov from 3.8.0 to 3.8.1 ([78e57ae](https://github.com/wmfs/pg-delta-file/commit/78e57aebd83bfa11b9a2b3149abe5bdfee01e5c5))
+* **deps-dev:** Bump mocha from 8.1.3 to 8.2.0 ([44c3cb2](https://github.com/wmfs/pg-delta-file/commit/44c3cb26af03925b71446adc3f075b02c72d3b12))
+* **deps-dev:** Bump mocha from 8.2.0 to 8.2.1 ([768c821](https://github.com/wmfs/pg-delta-file/commit/768c821c0f598eeffd59764d579d36456967c3c4))
+* **deps-dev:** Bump semantic-release from 17.1.2 to 17.2.0 ([2eb0894](https://github.com/wmfs/pg-delta-file/commit/2eb08947155ccd8e4fc3ae9621f24c4b3b00b218))
+* **deps-dev:** Bump semantic-release from 17.2.0 to 17.2.1 ([4adb551](https://github.com/wmfs/pg-delta-file/commit/4adb551590340fc3dc25916fb25e36978bd40f00))
+* **deps-dev:** Bump semantic-release from 17.2.1 to 17.2.2 ([45facb4](https://github.com/wmfs/pg-delta-file/commit/45facb43273a80c2d81f79d1e90b43f6378d43c7))
+* **deps-dev:** Bump semantic-release from 17.2.2 to 17.2.3 ([b6239bb](https://github.com/wmfs/pg-delta-file/commit/b6239bbfd7bd9a9d63a0dc54482b4b2b8b6e4c28))
+* **deps-dev:** Bump semantic-release from 17.2.3 to 17.2.4 ([3f363d2](https://github.com/wmfs/pg-delta-file/commit/3f363d274081e275612ee34a9924252d8cb2811e))
+* **deps-dev:** Bump semantic-release from 17.2.4 to 17.3.0 ([f486895](https://github.com/wmfs/pg-delta-file/commit/f486895bedcde5932d5ed5749d0f0bece10a83d3))
+* **deps-dev:** Bump standard from 14.3.4 to 15.0.0 ([5656356](https://github.com/wmfs/pg-delta-file/commit/5656356bf1650d0e90998a374b92879938466495))
+* **deps-dev:** Bump standard from 15.0.0 to 15.0.1 ([74e4fa0](https://github.com/wmfs/pg-delta-file/commit/74e4fa0c8afbe3ef349d1476a5a56489865ae567))
+* **deps-dev:** Bump standard from 15.0.1 to 16.0.0 ([db72214](https://github.com/wmfs/pg-delta-file/commit/db72214ef4f427d2d3200c493d1e6573c4f00570))
+* **deps-dev:** Bump standard from 16.0.0 to 16.0.1 ([ee9e1fd](https://github.com/wmfs/pg-delta-file/commit/ee9e1fd0dc077415b404f505f162dcd0d437459a))
+* **deps-dev:** Bump standard from 16.0.1 to 16.0.2 ([aa0c9d5](https://github.com/wmfs/pg-delta-file/commit/aa0c9d57cccd7314ae04cc67ab32177befc3b564))
+* **deps-dev:** Bump standard from 16.0.2 to 16.0.3 ([315ec32](https://github.com/wmfs/pg-delta-file/commit/315ec32f22b41ad06237a10a0271395052411048))
+
+
+### ⚙️ Continuous Integrations
+
+* **circle:** authenticate Docker image pull [ch2767] ([ad06633](https://github.com/wmfs/pg-delta-file/commit/ad06633cc393eced9088d9da3735fe73fdae6673))
+* **circle:** cache dependencies [ch2770] ([daae806](https://github.com/wmfs/pg-delta-file/commit/daae8063678c294ca588e846be586bb11d685766))
+* **circle:** separate linting job [ch1009] ([e7321e2](https://github.com/wmfs/pg-delta-file/commit/e7321e2299937d1bc20a32bcfa5c6b34dfb95fca))
+* **circle:** update build environment variable context name [ch2771] ([be05217](https://github.com/wmfs/pg-delta-file/commit/be0521798a1fcf957004a9d50e93b3a7af88697c))
+* **circle:** use tmpfs postgres image [ch2769] ([b294300](https://github.com/wmfs/pg-delta-file/commit/b29430051218be80a2e0c1ccdcbbde661be558f1))
+
 # [1.64.0](https://github.com/wmfs/pg-delta-file/compare/v1.63.0...v1.64.0) (2020-09-28)
 
 
