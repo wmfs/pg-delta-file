@@ -1,3 +1,25 @@
+## [1.67.1](https://github.com/wmfs/pg-delta-file/compare/v1.67.0...v1.67.1) (2021-02-15)
+
+
+### 🐛 Bug Fixes
+
+* Extract File Date Format [ch4209] ([7ede69d](https://github.com/wmfs/pg-delta-file/commit/7ede69d9ce30cb09c8c07e08843814cde8cb196f))
+
+
+### 🛠 Builds
+
+* **deps-dev:** Bump [@wmfs](https://github.com/wmfs)/hl-pg-client from 1.26.0 to 1.27.0 ([045c6ca](https://github.com/wmfs/pg-delta-file/commit/045c6ca82e73ec26a644e606ece546ced21dce5e))
+* **deps-dev:** Bump chai from 4.2.0 to 4.3.0 ([8155ebf](https://github.com/wmfs/pg-delta-file/commit/8155ebf138233e10b5b0616c99d839c376774d7a))
+* **deps-dev:** Bump mocha from 8.2.1 to 8.3.0 ([a1b8f52](https://github.com/wmfs/pg-delta-file/commit/a1b8f52149bc03000be4f8ee024d8d301ffd4ba8))
+* **deps-dev:** Bump semantic-release from 17.3.1 to 17.3.2 ([91e8a85](https://github.com/wmfs/pg-delta-file/commit/91e8a85091cd330a13e3163a743854e63cacb6c7))
+* **deps-dev:** Bump semantic-release from 17.3.2 to 17.3.3 ([8b5b882](https://github.com/wmfs/pg-delta-file/commit/8b5b8822ab88b372a04da4e2fb4bdfe6a9c3ddac))
+* **deps-dev:** Bump semantic-release from 17.3.3 to 17.3.4 ([db68c53](https://github.com/wmfs/pg-delta-file/commit/db68c536c32db1c3b91809035c43f234500c6eae))
+* **deps-dev:** Bump semantic-release from 17.3.4 to 17.3.5 ([3b50f0e](https://github.com/wmfs/pg-delta-file/commit/3b50f0e4a8f3acc58c18681badc1b9d2bff4a8a7))
+* **deps-dev:** Bump semantic-release from 17.3.5 to 17.3.6 ([df7fe6b](https://github.com/wmfs/pg-delta-file/commit/df7fe6b61fa01450802acb6f212845307646ac27))
+* **deps-dev:** Bump semantic-release from 17.3.6 to 17.3.7 ([2ab3df5](https://github.com/wmfs/pg-delta-file/commit/2ab3df55d3b04ef7a699699dc403d807c4a6e7e7))
+* **deps-dev:** Bump semantic-release from 17.3.7 to 17.3.8 ([0642715](https://github.com/wmfs/pg-delta-file/commit/064271576b28600cd9adfda0f7c45436db79754c))
+* **deps-dev:** Bump semantic-release from 17.3.8 to 17.3.9 ([a5642d4](https://github.com/wmfs/pg-delta-file/commit/a5642d4fea71be0118dea480435941ff599c8d77))
+
 # [1.67.0](https://github.com/wmfs/pg-delta-file/compare/v1.66.0...v1.67.0) (2021-01-12)
 
 
