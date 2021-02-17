@@ -1,3 +1,10 @@
+# [1.68.0](https://github.com/wmfs/pg-delta-file/compare/v1.67.1...v1.68.0) (2021-02-17)
+
+
+### 🛠 Builds
+
+* **deps:** Bump luxon from 1.25.0 to 1.26.0 ([0b6263b](https://github.com/wmfs/pg-delta-file/commit/0b6263b61b78ec4c815b800663050ee0a8a25564))
+
 ## [1.67.1](https://github.com/wmfs/pg-delta-file/compare/v1.67.0...v1.67.1) (2021-02-15)
 
 
