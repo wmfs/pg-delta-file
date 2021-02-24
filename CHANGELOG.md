@@ -1,3 +1,10 @@
+# [1.69.0](https://github.com/wmfs/pg-delta-file/compare/v1.68.0...v1.69.0) (2021-02-24)
+
+
+### 🛠 Builds
+
+* **deps:** Bump lodash from 4.17.20 to 4.17.21 ([353e624](https://github.com/wmfs/pg-delta-file/commit/353e624481372c94101997f6468bcb8d3617ad8f))
+
 # [1.68.0](https://github.com/wmfs/pg-delta-file/compare/v1.67.1...v1.68.0) (2021-02-17)
 
 
