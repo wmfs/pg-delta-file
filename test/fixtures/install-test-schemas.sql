@@ -18,7 +18,7 @@ INSERT INTO springfield.people (hash_sum, social_security_id, first_name, last_n
 ('BBBBBBBB', 2, 'Marge', 'Simpson', 36, '2016-06-02 15:00:01.000000 GMT', '2017-06-01 15:02:38.000000 GMT'),
 ('EEEEEEEE', 5, 'Montgomery', 'Burns', 123, '2017-06-02 15:00:01.000000 GMT', '2017-06-02 15:02:39.000000 GMT'),
 ('11111111', 6, 'Ned', 'Flanders', 60, '2017-06-02 15:00:01.000000 GMT', '2017-06-02 15:02:40.000000 GMT'),
-('22222222', 8, 'Bart', 'Simpson', 10, '2017-06-02 15:00:01.000000 GMT', '2017-06-02 18:42:12.000000 BST');
+('22222222', 8, 'Bart', 'Simpson', 10, null, '2017-06-02 18:42:12.000000 BST');
 
 CREATE TABLE springfield.homes (
   id integer NOT NULL,
