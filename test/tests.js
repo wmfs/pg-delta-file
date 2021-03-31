@@ -264,6 +264,45 @@ describe('Run the basic usage example', function () {
           ]
         }
       }
+    },
+    {
+      name: 'delta with delete',
+      file: 'with-deletes.csv',
+      count: 6,
+      info: {
+        totalCount: 6,
+        people: {
+          totalCount: 6
+        }
+      },
+      delta: {
+        namespace: 'springfield',
+        since: '2016-06-03 15:02:38.000000 GMT',
+        actionAliases: {
+          insert: 'i',
+          update: 'u',
+          delete: 'd'
+        },
+        deletesFunction: function (namespace, tableName, sinceDate, outputStream) {
+          outputStream.write({
+            social_security_id: 99,
+            first_name: 'Marvin',
+            last_name: 'Monroe',
+            age: 45
+          })
+        },
+        csvExtracts: {
+          people: [
+            73,
+            '$ACTION',
+            '$ROW_NUM',
+            '@social_security_id',
+            '@first_name',
+            '@last_name',
+            '@age'
+          ]
+        }
+      }
     }
   ]
 
