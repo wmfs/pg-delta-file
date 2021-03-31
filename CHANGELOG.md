@@ -1,3 +1,28 @@
+# [1.70.0](https://github.com/wmfs/pg-delta-file/compare/v1.69.0...v1.70.0) (2021-03-31)
+
+
+### ✨ Features
+
+* 🎸 New option - deletesFunction(namespace,model,sinceDate,oStream) ([0b942bf](https://github.com/wmfs/pg-delta-file/commit/0b942bf89516e5b4bed44b7ec380d112528f32fb))
+
+
+### 🛠 Builds
+
+* **deps-dev:** Bump chai from 4.3.0 to 4.3.1 ([5677d33](https://github.com/wmfs/pg-delta-file/commit/5677d33161632a35cff62c914e48221fa5f91efc))
+* **deps-dev:** Bump chai from 4.3.1 to 4.3.2 ([83260cb](https://github.com/wmfs/pg-delta-file/commit/83260cbac7f007ee59d9134bb1fac3f92dbcea4d))
+* **deps-dev:** Bump chai from 4.3.2 to 4.3.3 ([48e129c](https://github.com/wmfs/pg-delta-file/commit/48e129cdd67a67047e97cf57e13a9807c31f4e8a))
+* **deps-dev:** Bump chai from 4.3.3 to 4.3.4 ([e6726a6](https://github.com/wmfs/pg-delta-file/commit/e6726a631bf43614c746629b544c2338db917bce))
+* **deps-dev:** Bump mocha from 8.3.0 to 8.3.1 ([bda1d78](https://github.com/wmfs/pg-delta-file/commit/bda1d78598bf242b2370b24240555cabc6fc1d4e))
+* **deps-dev:** Bump mocha from 8.3.1 to 8.3.2 ([a97b476](https://github.com/wmfs/pg-delta-file/commit/a97b476d940af866d6b1d5f02228a911540a70a2))
+* **deps-dev:** Bump semantic-release from 17.3.9 to 17.4.0 ([e64ffa0](https://github.com/wmfs/pg-delta-file/commit/e64ffa0fd5e072decd147a8d5dbbd2af172f82c6))
+* **deps-dev:** Bump semantic-release from 17.4.0 to 17.4.1 ([d0f84b5](https://github.com/wmfs/pg-delta-file/commit/d0f84b554bcf23cf633ac15d6a70895312f193e9))
+* **deps-dev:** Bump semantic-release from 17.4.1 to 17.4.2 ([0e602be](https://github.com/wmfs/pg-delta-file/commit/0e602be52f4f4737b4770a78f7879f1d90e4a893))
+
+
+### ⚙️ Continuous Integrations
+
+* **circle:** update postgres config to 13.2 ([fef7a09](https://github.com/wmfs/pg-delta-file/commit/fef7a09df279122f45786c66aed0fe2296ac735c))
+
 # [1.69.0](https://github.com/wmfs/pg-delta-file/compare/v1.68.0...v1.69.0) (2021-02-24)
 
 
