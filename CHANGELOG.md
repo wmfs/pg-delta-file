@@ -1,3 +1,13 @@
+# [1.71.0](https://github.com/wmfs/pg-delta-file/compare/v1.70.0...v1.71.0) (2021-05-26)
+
+
+### 🛠 Builds
+
+* **deps:** Bump luxon from 1.26.0 to 1.27.0 ([5c8cdc2](https://github.com/wmfs/pg-delta-file/commit/5c8cdc26799ab8700c0881b4db18e86ff3f14b06))
+* **deps-dev:** Bump codecov from 3.8.1 to 3.8.2 ([5d82a11](https://github.com/wmfs/pg-delta-file/commit/5d82a11c62497a666acfb0babad1a9760f247e83))
+* **deps-dev:** Bump mocha from 8.3.2 to 8.4.0 ([663bcda](https://github.com/wmfs/pg-delta-file/commit/663bcda96317aed2886c59345438022e1170f5a6))
+* **deps-dev:** Bump semantic-release from 17.4.2 to 17.4.3 ([c05f321](https://github.com/wmfs/pg-delta-file/commit/c05f321793f24c8cec861da30978d3be2c272df3))
+
 # [1.70.0](https://github.com/wmfs/pg-delta-file/compare/v1.69.0...v1.70.0) (2021-03-31)
 
 
