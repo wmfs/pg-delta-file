@@ -1,3 +1,44 @@
+# [1.72.0](https://github.com/wmfs/pg-delta-file/compare/v1.71.0...v1.72.0) (2022-01-25)
+
+
+### 🛠 Builds
+
+* **deps-dev:** Bump [@wmfs](https://github.com/wmfs)/hl-pg-client from 1.27.0 to 1.28.0 ([3ed1bc9](https://github.com/wmfs/pg-delta-file/commit/3ed1bc9008af08a84ace32b80e1ad0ae8cd31ad4))
+* **deps-dev:** Bump codecov from 3.8.2 to 3.8.3 ([0cfeecb](https://github.com/wmfs/pg-delta-file/commit/0cfeecbd164f12626a439b5c734b31f48ff5c9b9))
+* **deps-dev:** Bump mocha from 8.4.0 to 9.0.0 ([2415420](https://github.com/wmfs/pg-delta-file/commit/2415420bfcde85ac620c248d2adc9ce2714befc8))
+* **deps-dev:** Bump mocha from 9.0.0 to 9.0.1 ([0af15f7](https://github.com/wmfs/pg-delta-file/commit/0af15f7172c48ff12b3cad1a11042626364fc566))
+* **deps-dev:** Bump mocha from 9.0.1 to 9.0.2 ([d675f32](https://github.com/wmfs/pg-delta-file/commit/d675f325161711d7da5a57dc9633c30e8449ee0a))
+* **deps-dev:** Bump mocha from 9.0.2 to 9.0.3 ([0df6f3c](https://github.com/wmfs/pg-delta-file/commit/0df6f3c31528b46b302dd1f2ac783728ca74ba29))
+* **deps-dev:** Bump semantic-release from 17.4.3 to 17.4.4 ([ad32508](https://github.com/wmfs/pg-delta-file/commit/ad32508be8374f9ac78ef6116e95ce1fa2490b09))
+* **deps-dev:** update dependency [@semantic-release](https://github.com/semantic-release)/changelog to v6 ([b9ad2c6](https://github.com/wmfs/pg-delta-file/commit/b9ad2c6690c602bea6211772b7614a3220ea896d))
+* **deps-dev:** update dependency [@semantic-release](https://github.com/semantic-release)/git to v10 ([12e5b80](https://github.com/wmfs/pg-delta-file/commit/12e5b80f17e2fb93fede1db7d050def6f335cc83))
+* **deps-dev:** update dependency [@semantic-release](https://github.com/semantic-release)/git to v9.0.1 ([5055fff](https://github.com/wmfs/pg-delta-file/commit/5055fffb9eef7a70d3e8c2b9ad76ffc995379ef9))
+* **deps-dev:** update dependency mocha to v9.1.0 ([db5ee87](https://github.com/wmfs/pg-delta-file/commit/db5ee87472f5ccb2d7b535e8636887cdcc79b7cb))
+* **deps-dev:** update dependency mocha to v9.1.1 ([2bcceb7](https://github.com/wmfs/pg-delta-file/commit/2bcceb75124e012cbf5e867078d161509ee4fa92))
+* **deps-dev:** update dependency mocha to v9.1.2 ([9dc47b0](https://github.com/wmfs/pg-delta-file/commit/9dc47b02a3f726a6d4c17d285434c9ff88fe93a2))
+* **deps-dev:** update dependency mocha to v9.1.3 ([b2bbe70](https://github.com/wmfs/pg-delta-file/commit/b2bbe7045435c8770340cb4f2a5024a913c6e349))
+* **deps-dev:** update dependency mocha to v9.1.4 ([561e50a](https://github.com/wmfs/pg-delta-file/commit/561e50abb55bd0d035014001b44fc46e414e8b09))
+* **deps-dev:** update dependency mocha to v9.2.0 ([502bb69](https://github.com/wmfs/pg-delta-file/commit/502bb69c987286039c6ae1efb4857de0dd71e540))
+* **deps-dev:** update dependency semantic-release to v17.4.5 ([fc7da16](https://github.com/wmfs/pg-delta-file/commit/fc7da1662a66b9be0fbcca303966c4dc0a7d9c40))
+* **deps-dev:** update dependency semantic-release to v17.4.6 ([1a663d9](https://github.com/wmfs/pg-delta-file/commit/1a663d9473ebb1ff1fa0228c68d059edd16e178e))
+* **deps-dev:** update dependency semantic-release to v17.4.7 ([7d1abda](https://github.com/wmfs/pg-delta-file/commit/7d1abda27ee60a87f45016a73fe85fd217116135))
+* **deps-dev:** update dependency semantic-release to v18 ([e1c04f3](https://github.com/wmfs/pg-delta-file/commit/e1c04f3ac238ee177a1fb84a84072c6a455ef7e7))
+* **deps-dev:** update dependency semantic-release to v18.0.1 ([32c5a14](https://github.com/wmfs/pg-delta-file/commit/32c5a148dabf97df2e785802211f264fe2d849aa))
+* **deps-dev:** update dependency semantic-release to v19 ([754d79a](https://github.com/wmfs/pg-delta-file/commit/754d79aa13e12e23a2ac02dabd7469cce7a4a10a))
+* **deps-dev:** update dependency standard to v16.0.4 ([817fbcf](https://github.com/wmfs/pg-delta-file/commit/817fbcf362fcd5295e78dc2bcaf374a2438826f5))
+* **deps-dev:** update semantic-release monorepo ([b07495e](https://github.com/wmfs/pg-delta-file/commit/b07495e1dfbed391e2444e98fd344a26371146f0))
+* **deps:** update dependency luxon to v1.28.0 ([0fedca1](https://github.com/wmfs/pg-delta-file/commit/0fedca13c1681881cb6d52d455feaa3f34114f45))
+
+
+### ⚙️ Continuous Integrations
+
+* **circle:** CircleCI update next gen PostgreSQL image [sc-11442] ([4e377f0](https://github.com/wmfs/pg-delta-file/commit/4e377f0048a1c546893f9b81c253b3385ce71e58))
+
+
+### ♻️ Chores
+
+* add renovate config [ch6600] ([5aefeae](https://github.com/wmfs/pg-delta-file/commit/5aefeae5b0c91a3d96b8435321536523b76e7eb4))
+
 # [1.71.0](https://github.com/wmfs/pg-delta-file/compare/v1.70.0...v1.71.0) (2021-05-26)
 
 
