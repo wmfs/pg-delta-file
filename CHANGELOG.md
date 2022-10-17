@@ -1,3 +1,20 @@
+# [1.74.0](https://github.com/wmfs/pg-delta-file/compare/v1.73.0...v1.74.0) (2022-10-17)
+
+
+### 🛠 Builds
+
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/hl-pg-client to v1.29.0 ([801d585](https://github.com/wmfs/pg-delta-file/commit/801d585386df9419821d07e0d4455ce5023712b1))
+* **deps-dev:** update dependency chai to v4.3.5 ([e04e6f6](https://github.com/wmfs/pg-delta-file/commit/e04e6f6daa46230a72fc4a5823e744037e1a3773))
+* **deps-dev:** update dependency chai to v4.3.6 ([f50e016](https://github.com/wmfs/pg-delta-file/commit/f50e01611fc161d796c936033465f97d1d5fb1d0))
+* **deps-dev:** update dependency mocha to v10 ([7c216dc](https://github.com/wmfs/pg-delta-file/commit/7c216dc95f4a72ef307be505d4c89aa49e359e57))
+* **deps-dev:** update dependency mocha to v10.1.0 ([f359720](https://github.com/wmfs/pg-delta-file/commit/f359720b06345fa68ba93f75eae677c6de7f45f8))
+* **deps-dev:** update dependency mocha to v9.2.1 ([5fae497](https://github.com/wmfs/pg-delta-file/commit/5fae4975194027f412d8934e85421467de514990))
+* **deps-dev:** update dependency mocha to v9.2.2 ([49ac322](https://github.com/wmfs/pg-delta-file/commit/49ac322c98fed401820d0675874e054484140717))
+* **deps-dev:** update dependency semantic-release to v19.0.3 ([c2e4c5c](https://github.com/wmfs/pg-delta-file/commit/c2e4c5c83da134a7b01a1a1bb50ddc73d0622e83))
+* **deps-dev:** update dependency semantic-release to v19.0.5 ([4156980](https://github.com/wmfs/pg-delta-file/commit/41569809f97e8dd7528048887cb63308d0f758ca))
+* **deps-dev:** update dependency standard to v17 ([b445d32](https://github.com/wmfs/pg-delta-file/commit/b445d32828cc167f0c1c8d1f69db02c580b081c9))
+* **deps:** update dependency pg to v8.8.0 ([8190356](https://github.com/wmfs/pg-delta-file/commit/8190356cb838a81a0a1cbda9d95820aaad39d452))
+
 # [1.73.0](https://github.com/wmfs/pg-delta-file/compare/v1.72.0...v1.73.0) (2022-01-25)
 
 
