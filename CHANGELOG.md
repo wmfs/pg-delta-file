@@ -1,3 +1,10 @@
+# [1.76.0](https://github.com/wmfs/pg-delta-file/compare/v1.75.0...v1.76.0) (2022-11-02)
+
+
+### 🛠 Builds
+
+* **deps:** update dependency luxon to v3 ([00db304](https://github.com/wmfs/pg-delta-file/commit/00db304bc472cec3a656f0137f7a8b45ee21e23a))
+
 # [1.75.0](https://github.com/wmfs/pg-delta-file/compare/v1.74.0...v1.75.0) (2022-11-01)
 
 
