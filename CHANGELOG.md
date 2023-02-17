@@ -1,3 +1,26 @@
+# [1.77.0](https://github.com/wmfs/pg-delta-file/compare/v1.76.0...v1.77.0) (2023-02-17)
+
+
+### 🛠 Builds
+
+* **deps-dev:** update dependency [@semantic-release](https://github.com/semantic-release)/changelog to v6.0.2 ([68b7009](https://github.com/wmfs/pg-delta-file/commit/68b7009efa50209281a6ee142b5160114fd7d52b))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/hl-pg-client to v1.31.0 ([b09a993](https://github.com/wmfs/pg-delta-file/commit/b09a9939e35afae5856e7f6778efc48b3ad33d3b))
+* **deps-dev:** update dependency chai to v4.3.7 ([7bb9dc4](https://github.com/wmfs/pg-delta-file/commit/7bb9dc48636cf1fde27fb7aa11d2864694e8e48d))
+* **deps-dev:** update dependency mocha to v10.2.0 ([6a18630](https://github.com/wmfs/pg-delta-file/commit/6a18630a93cecc973936062436bb030b84e07477))
+* **deps-dev:** update dependency semantic-release to v20 ([74616b9](https://github.com/wmfs/pg-delta-file/commit/74616b9af4c75020eb29d36dfd372fde1bf2973b))
+* **deps-dev:** update dependency semantic-release to v20.0.1 ([c4af097](https://github.com/wmfs/pg-delta-file/commit/c4af097fa4e3a433800f6eab1a0189aa2d4d3a30))
+* **deps-dev:** update dependency semantic-release to v20.0.2 ([2ea7ab4](https://github.com/wmfs/pg-delta-file/commit/2ea7ab40e24124b73f5dd05cf8f7c3faf32dfaf4))
+* **deps-dev:** update dependency semantic-release to v20.0.3 ([85d5da0](https://github.com/wmfs/pg-delta-file/commit/85d5da0882653607c9ffe02f52e232e1a4d05ccf))
+* **deps-dev:** update dependency semantic-release to v20.0.4 ([155f9c6](https://github.com/wmfs/pg-delta-file/commit/155f9c6c18ec5b0bf8e512fea8a79620a0d7e797))
+* **deps-dev:** update dependency semantic-release to v20.1.0 ([01392de](https://github.com/wmfs/pg-delta-file/commit/01392dee1317faa0f7f55b0c88fd68dc03d800a0))
+* **deps:** update dependency luxon to v3.2.1 [security] ([137aa9a](https://github.com/wmfs/pg-delta-file/commit/137aa9ab9553e994ff6038de8f6dd39c5e1681a8))
+
+
+### ⚙️ Continuous Integrations
+
+* **circle:** CircleCI update PostgreSQL image to 15 0 [sc-18659] ([83c6eb0](https://github.com/wmfs/pg-delta-file/commit/83c6eb0a69aff4f008816a7a087bf946ca912b6b))
+* **circle:** update postgres to 15.1-postgis ([149d20b](https://github.com/wmfs/pg-delta-file/commit/149d20b11ee2d0aaa246413a0704b5ca737eebfb))
+
 # [1.76.0](https://github.com/wmfs/pg-delta-file/compare/v1.75.0...v1.76.0) (2022-11-02)
 
 
