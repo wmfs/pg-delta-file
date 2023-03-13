@@ -1,3 +1,11 @@
+# [1.78.0](https://github.com/wmfs/pg-delta-file/compare/v1.77.0...v1.78.0) (2023-03-13)
+
+
+### 🛠 Builds
+
+* **deps-dev:** update dependency semantic-release to v20.1.1 ([896e36b](https://github.com/wmfs/pg-delta-file/commit/896e36b6a84e8fdae037016588f32d75ddc14236))
+* **deps:** update dependency luxon to v3.3.0 ([c596236](https://github.com/wmfs/pg-delta-file/commit/c596236905b2d3f7848547051c94fec4350d48f9))
+
 # [1.77.0](https://github.com/wmfs/pg-delta-file/compare/v1.76.0...v1.77.0) (2023-02-17)
 
 
