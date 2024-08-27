@@ -1,3 +1,10 @@
+# [1.79.0](https://github.com/wmfs/pg-delta-file/compare/v1.78.0...v1.79.0) (2024-08-27)
+
+
+### Features
+
+* allow optional progress frequency, default to 1000 ([#483](https://github.com/wmfs/pg-delta-file/issues/483)) ([20c890a](https://github.com/wmfs/pg-delta-file/commit/20c890a9720b625e9aa34f66e6775d240c540d65))
+
 # [1.78.0](https://github.com/wmfs/pg-delta-file/compare/v1.77.0...v1.78.0) (2023-03-13)
 
 
