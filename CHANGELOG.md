@@ -1,3 +1,5 @@
+# [1.82.0](https://github.com/wmfs/pg-delta-file/compare/v1.81.0...v1.82.0) (2024-11-04)
+
 # [1.81.0](https://github.com/wmfs/pg-delta-file/compare/v1.80.0...v1.81.0) (2024-11-04)
 
 # [1.80.0](https://github.com/wmfs/pg-delta-file/compare/v1.79.0...v1.80.0) (2024-11-04)
