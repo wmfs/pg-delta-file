@@ -1,3 +1,9 @@
+## [1.84.0](https://github.com/wmfs/pg-delta-file/compare/v1.83.0...v1.84.0) (2025-02-12)
+
+### Build system dependencies :hammer:
+
+* **deps:** update dependency pg to v8.13.2 ([#501](https://github.com/wmfs/pg-delta-file/issues/501)) ([7d56e45](https://github.com/wmfs/pg-delta-file/commit/7d56e45d446a6d4a79366442dd95a2fc5f477462))
+
 ## [1.83.0](https://github.com/wmfs/pg-delta-file/compare/v1.82.0...v1.83.0) (2025-02-12)
 
 ### Build system dependencies :hammer:
