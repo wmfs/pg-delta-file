@@ -1,3 +1,17 @@
+## [1.83.0](https://github.com/wmfs/pg-delta-file/compare/v1.82.0...v1.83.0) (2025-02-12)
+
+### Build system dependencies :hammer:
+
+* **deps-dev:** [sc-29160] Resolve issue with semantic-release changelog notes ([#498](https://github.com/wmfs/pg-delta-file/issues/498)) ([39a5d76](https://github.com/wmfs/pg-delta-file/commit/39a5d76a71ee0a38d6095e215536bcd0576400f7))
+* **deps-dev:** update dependency @wmfs/hl-pg-client to v1.32.0 ([#493](https://github.com/wmfs/pg-delta-file/issues/493)) ([0d7e4dd](https://github.com/wmfs/pg-delta-file/commit/0d7e4ddf3da4271c3a14fdfa95dff71732f4186d))
+* **deps-dev:** update dependency @wmfs/hl-pg-client to v1.33.0 ([#494](https://github.com/wmfs/pg-delta-file/issues/494)) ([6c306f6](https://github.com/wmfs/pg-delta-file/commit/6c306f6380377e78a27d5cdb844660fe3064329c))
+* **deps-dev:** update dependency @wmfs/hl-pg-client to v1.34.0 ([#496](https://github.com/wmfs/pg-delta-file/issues/496)) ([bfbd819](https://github.com/wmfs/pg-delta-file/commit/bfbd81973202a0ecd5389db148cbb1dcd3e70308))
+* **deps-dev:** update dependency mocha to v11 ([#495](https://github.com/wmfs/pg-delta-file/issues/495)) ([377d21a](https://github.com/wmfs/pg-delta-file/commit/377d21a71d436793d4fd62c21e4186196bdfd0ac))
+* **deps-dev:** update dependency mocha to v11.1.0 ([#499](https://github.com/wmfs/pg-delta-file/issues/499)) ([bff13af](https://github.com/wmfs/pg-delta-file/commit/bff13af1c07e21fbeface3c53a2fa3f64c9090b4))
+* **deps-dev:** update dependency semantic-release to v24.2.1 ([#497](https://github.com/wmfs/pg-delta-file/issues/497)) ([a34c961](https://github.com/wmfs/pg-delta-file/commit/a34c961027a273cbdcfdae275009a2c3dabe678a))
+* **deps-dev:** update dependency semantic-release to v24.2.2 ([#500](https://github.com/wmfs/pg-delta-file/issues/500)) ([b662738](https://github.com/wmfs/pg-delta-file/commit/b662738d991f11f4f44be941a83cb7da0bfd3ea2))
+* **deps:** update dependency pg-query-stream to v4.7.2 ([#502](https://github.com/wmfs/pg-delta-file/issues/502)) ([00dbcb0](https://github.com/wmfs/pg-delta-file/commit/00dbcb017845a7734ef6f42590b1c536af872275))
+
 # [1.82.0](https://github.com/wmfs/pg-delta-file/compare/v1.81.0...v1.82.0) (2024-11-04)
 
 # [1.81.0](https://github.com/wmfs/pg-delta-file/compare/v1.80.0...v1.81.0) (2024-11-04)
