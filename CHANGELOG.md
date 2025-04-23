@@ -1,3 +1,9 @@
+## [1.93.0](https://github.com/wmfs/pg-delta-file/compare/v1.92.0...v1.93.0) (2025-04-23)
+
+### Build system dependencies :hammer:
+
+* **deps:** update dependency pg-query-stream to v4.9.1 ([#517](https://github.com/wmfs/pg-delta-file/issues/517)) ([26ba061](https://github.com/wmfs/pg-delta-file/commit/26ba061302473ba0afbccd899d45b1ca982ca881))
+
 ## [1.92.0](https://github.com/wmfs/pg-delta-file/compare/v1.91.0...v1.92.0) (2025-04-23)
 
 ### Build system dependencies :hammer:
