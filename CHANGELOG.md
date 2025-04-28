@@ -1,3 +1,10 @@
+## [1.96.0](https://github.com/wmfs/pg-delta-file/compare/v1.95.0...v1.96.0) (2025-04-28)
+
+### Build system dependencies :hammer:
+
+* **deps-dev:** update dependency @wmfs/hl-pg-client to v1.40.0 ([#521](https://github.com/wmfs/pg-delta-file/issues/521)) ([69f6cc7](https://github.com/wmfs/pg-delta-file/commit/69f6cc7d32d8946c2f4d5ab3b2e6e45f393387ed))
+* **deps:** update dependency pg to v8.15.6 ([#522](https://github.com/wmfs/pg-delta-file/issues/522)) ([7c481a9](https://github.com/wmfs/pg-delta-file/commit/7c481a92c5bf7e3cf8d100e35cce12e6f4ee2fe0))
+
 ## [1.95.0](https://github.com/wmfs/pg-delta-file/compare/v1.94.0...v1.95.0) (2025-04-25)
 
 ### Build system dependencies :hammer:
