@@ -1,3 +1,19 @@
+## [1.100.0](https://github.com/wmfs/pg-delta-file/compare/v1.99.0...v1.100.0) (2025-06-20)
+
+### Build system dependencies :hammer:
+
+* **deps-dev:** update dependency @wmfs/hl-pg-client to v1.42.0 ([#528](https://github.com/wmfs/pg-delta-file/issues/528)) ([fcf9536](https://github.com/wmfs/pg-delta-file/commit/fcf95366ffad02098f108dd3c293d90c2d40da75))
+* **deps-dev:** update dependency @wmfs/hl-pg-client to v1.43.0 ([#529](https://github.com/wmfs/pg-delta-file/issues/529)) ([f31d170](https://github.com/wmfs/pg-delta-file/commit/f31d17046f12c0e6e9f04a52136d849934b45948))
+* **deps-dev:** update dependency conventional-changelog-conventionalcommits to v9 ([#533](https://github.com/wmfs/pg-delta-file/issues/533)) ([9423367](https://github.com/wmfs/pg-delta-file/commit/94233676bf23b99d3c9113db0d78e400d0be64fd))
+* **deps-dev:** update dependency mocha to v11.3.0 ([#530](https://github.com/wmfs/pg-delta-file/issues/530)) ([c28930f](https://github.com/wmfs/pg-delta-file/commit/c28930fdab81041490910f43b81d4acdd36ebf20))
+* **deps-dev:** update dependency mocha to v11.4.0 ([#532](https://github.com/wmfs/pg-delta-file/issues/532)) ([49fbab6](https://github.com/wmfs/pg-delta-file/commit/49fbab65fd76f921bbbc5152ae474f26080e01c3))
+* **deps-dev:** update dependency mocha to v11.5.0 ([#535](https://github.com/wmfs/pg-delta-file/issues/535)) ([d604a4f](https://github.com/wmfs/pg-delta-file/commit/d604a4fc0fd991a299c50defc6929ac56e61c7c1))
+* **deps-dev:** update dependency mocha to v11.6.0 ([#536](https://github.com/wmfs/pg-delta-file/issues/536)) ([d10db5b](https://github.com/wmfs/pg-delta-file/commit/d10db5be8cded4b9ea3859c3966685d9b19ddc7e))
+* **deps-dev:** update dependency mocha to v11.7.0 ([#537](https://github.com/wmfs/pg-delta-file/issues/537)) ([4271441](https://github.com/wmfs/pg-delta-file/commit/4271441e5bde22ef08e50af7cb256e315a21e2ed))
+* **deps-dev:** update dependency semantic-release to v24.2.4 ([#531](https://github.com/wmfs/pg-delta-file/issues/531)) ([bed6fa2](https://github.com/wmfs/pg-delta-file/commit/bed6fa268db4432221b52565762ec87540b33489))
+* **deps-dev:** update dependency semantic-release to v24.2.5 ([#534](https://github.com/wmfs/pg-delta-file/issues/534)) ([b2bdf3e](https://github.com/wmfs/pg-delta-file/commit/b2bdf3ec9916ab39f4c8a10d3347394e11bc4215))
+* **deps:** update dependency pg to v8.16.2 ([#538](https://github.com/wmfs/pg-delta-file/issues/538)) ([30b5085](https://github.com/wmfs/pg-delta-file/commit/30b508521ee0ccb93b35a4f2b5a94dabcb0a8e12))
+
 ## [1.99.0](https://github.com/wmfs/pg-delta-file/compare/v1.98.0...v1.99.0) (2025-05-13)
 
 ### Build system dependencies :hammer:
