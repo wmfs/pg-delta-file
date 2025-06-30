@@ -1,3 +1,12 @@
+## [1.102.0](https://github.com/wmfs/pg-delta-file/compare/v1.101.0...v1.102.0) (2025-06-30)
+
+### Build system dependencies :hammer:
+
+* **deps-dev:** update dependency @wmfs/hl-pg-client to v1.44.0 ([#540](https://github.com/wmfs/pg-delta-file/issues/540)) ([2ca6e89](https://github.com/wmfs/pg-delta-file/commit/2ca6e893ce078114266f9e976bd01311e4d70daf))
+* **deps-dev:** update dependency mocha to v11.7.1 ([#541](https://github.com/wmfs/pg-delta-file/issues/541)) ([9b8fa0e](https://github.com/wmfs/pg-delta-file/commit/9b8fa0e229f6cfdc2dd8a96b4c8b38692d586b3d))
+* **deps-dev:** update dependency semantic-release to v24.2.6 ([#544](https://github.com/wmfs/pg-delta-file/issues/544)) ([a813f88](https://github.com/wmfs/pg-delta-file/commit/a813f880f09dbfed974581bbf255d15e5d283414))
+* **deps:** update dependency pg to v8.16.3 ([#542](https://github.com/wmfs/pg-delta-file/issues/542)) ([1bede8d](https://github.com/wmfs/pg-delta-file/commit/1bede8d237e525216c5167907116ade048728702))
+
 ## [1.101.0](https://github.com/wmfs/pg-delta-file/compare/v1.100.0...v1.101.0) (2025-06-20)
 
 ### Build system dependencies :hammer:
