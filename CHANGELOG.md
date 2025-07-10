@@ -1,3 +1,10 @@
+## [1.104.0](https://github.com/wmfs/pg-delta-file/compare/v1.103.0...v1.104.0) (2025-07-10)
+
+### Build system dependencies :hammer:
+
+* **deps-dev:** update dependency @wmfs/hl-pg-client to v1.45.0 ([#545](https://github.com/wmfs/pg-delta-file/issues/545)) ([2c9fa6d](https://github.com/wmfs/pg-delta-file/commit/2c9fa6d89e133a98afdda27c710d5e6b67f3a1ce))
+* **deps:** update dependency luxon to v3.7.1 ([#546](https://github.com/wmfs/pg-delta-file/issues/546)) ([5cbb8d9](https://github.com/wmfs/pg-delta-file/commit/5cbb8d9381406978045fa6f1fb7cf0f6c81be9f5))
+
 ## [1.103.0](https://github.com/wmfs/pg-delta-file/compare/v1.102.0...v1.103.0) (2025-06-30)
 
 ### Build system dependencies :hammer:
