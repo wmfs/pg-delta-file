@@ -1,3 +1,5 @@
+## [1.104.1](https://github.com/wmfs/pg-delta-file/compare/v1.104.0...v1.104.1) (2026-08-13)
+
 ## [1.104.0](https://github.com/wmfs/pg-delta-file/compare/v1.103.0...v1.104.0) (2025-07-10)
 
 ### Build system dependencies :hammer:
