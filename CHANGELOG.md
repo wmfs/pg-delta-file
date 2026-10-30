@@ -1,3 +1,22 @@
+## [1.105.0](https://github.com/wmfs/pg-delta-file/compare/v1.104.1...v1.105.0) (2026-10-30)
+
+### Build system dependencies :hammer:
+
+* **deps-dev:** fix conventionalcommit versions [sc-34125] ([780e7ff](https://github.com/wmfs/pg-delta-file/commit/780e7ffad465c8ca56e74eb45da60f867d7b2a0c))
+* **deps-dev:** update dependency @wmfs/hl-pg-client to v1.46.1 ([#590](https://github.com/wmfs/pg-delta-file/issues/590)) ([6cf8eb1](https://github.com/wmfs/pg-delta-file/commit/6cf8eb1dd111672d9ef382631b76d1fd6d1f6345))
+* **deps-dev:** update dependency conventional-changelog-conventionalcommits to v10.4.0 ([#591](https://github.com/wmfs/pg-delta-file/issues/591)) ([3790ef3](https://github.com/wmfs/pg-delta-file/commit/3790ef3ebefa6331b63002ea3bcde9ef0c1fe486))
+* **deps-dev:** update dependency conventional-changelog-conventionalcommits to v10.4.1 ([#596](https://github.com/wmfs/pg-delta-file/issues/596)) ([0033b46](https://github.com/wmfs/pg-delta-file/commit/0033b46f474e300df2bb03e45968b8dd41638d0b))
+* **deps-dev:** update dependency mocha to v12 ([#592](https://github.com/wmfs/pg-delta-file/issues/592)) ([e672773](https://github.com/wmfs/pg-delta-file/commit/e672773b0d491ac842600985a737a404c91360eb))
+* **deps-dev:** update dependency mocha to v12.0.1 ([#593](https://github.com/wmfs/pg-delta-file/issues/593)) ([5de4b0b](https://github.com/wmfs/pg-delta-file/commit/5de4b0bde44663cfd80a2f5849323babf6e22d98))
+* **deps-dev:** update dependency mocha to v12.0.2 ([#594](https://github.com/wmfs/pg-delta-file/issues/594)) ([727830a](https://github.com/wmfs/pg-delta-file/commit/727830a7af20abdd9ca2f4cc82298aa3de7c5fd9))
+* **deps-dev:** update dependency mocha to v12.0.3 ([#595](https://github.com/wmfs/pg-delta-file/issues/595)) ([0d2e3e3](https://github.com/wmfs/pg-delta-file/commit/0d2e3e3a11298f58c1c13e3f3a427f3e6b1c2a23))
+* **deps:** update dependency lodash to v4.18.1 [security] ([#566](https://github.com/wmfs/pg-delta-file/issues/566)) ([d001b79](https://github.com/wmfs/pg-delta-file/commit/d001b79825f7eb5156b3940532cddddb46fa15ed))
+
+### CICD Configuration Changes :construction_worker:
+
+* use github-app-token orb for release token [sc-34101] ([#598](https://github.com/wmfs/pg-delta-file/issues/598)) ([29a26f0](https://github.com/wmfs/pg-delta-file/commit/29a26f0a091ccf16681b83791e895cce2f6f575a))
+* use shared renovate preset [sc-34117] ([#597](https://github.com/wmfs/pg-delta-file/issues/597)) ([09671fe](https://github.com/wmfs/pg-delta-file/commit/09671feb50b76042f319018a2b4e954d78e3ad56))
+
 ## [1.104.1](https://github.com/wmfs/pg-delta-file/compare/v1.104.0...v1.104.1) (2026-08-13)
 
 ## [1.104.0](https://github.com/wmfs/pg-delta-file/compare/v1.103.0...v1.104.0) (2025-07-10)
