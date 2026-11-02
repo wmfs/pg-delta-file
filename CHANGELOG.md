@@ -1,3 +1,11 @@
+## [1.106.0](https://github.com/wmfs/pg-delta-file/compare/v1.105.0...v1.106.0) (2026-11-02)
+
+### Build system dependencies :hammer:
+
+* **deps:** update dependency luxon to v3.7.2 ([#551](https://github.com/wmfs/pg-delta-file/issues/551)) ([8f6f4ff](https://github.com/wmfs/pg-delta-file/commit/8f6f4ff26d9e53715906e654134cba178e47020d))
+* **deps:** update dependency pg to v8.23.1 ([#562](https://github.com/wmfs/pg-delta-file/issues/562)) ([841a16b](https://github.com/wmfs/pg-delta-file/commit/841a16bc6f8bfa9b807662cc8504783768b99fdf))
+* **deps:** update dependency pg-query-stream to v4.17.1 ([#563](https://github.com/wmfs/pg-delta-file/issues/563)) ([26071d8](https://github.com/wmfs/pg-delta-file/commit/26071d833714d43908d87f3060e9f981e7b18dce))
+
 ## [1.105.0](https://github.com/wmfs/pg-delta-file/compare/v1.104.1...v1.105.0) (2026-10-30)
 
 ### Build system dependencies :hammer:
