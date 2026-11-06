@@ -1,3 +1,13 @@
+## [1.106.1](https://github.com/wmfs/pg-delta-file/compare/v1.106.0...v1.106.1) (2026-11-06)
+
+### Bug Fix(es) :bug:
+
+* replace make-dir with fs.promises.mkdir ([#600](https://github.com/wmfs/pg-delta-file/issues/600)) ([f14422c](https://github.com/wmfs/pg-delta-file/commit/f14422c1d81f0db641d4b84130edbbe9ec775bbe))
+
+### Build system dependencies :hammer:
+
+* **deps-dev:** update dependency @wmfs/hl-pg-client to v1.48.0 ([#599](https://github.com/wmfs/pg-delta-file/issues/599)) ([e3a810d](https://github.com/wmfs/pg-delta-file/commit/e3a810d37457d65ca61b2b04b08dab414d9bfda5))
+
 ## [1.106.0](https://github.com/wmfs/pg-delta-file/compare/v1.105.0...v1.106.0) (2026-11-02)
 
 ### Build system dependencies :hammer:
